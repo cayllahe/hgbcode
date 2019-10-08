@@ -63,7 +63,7 @@ Where:
 13: On negative intervals, apply depth filter and max-rule
 ```
 
-**TH_PARAMETER**: Refers to the threshold parameter
+**TH_PARAMETER**: Refers to the  alpha parameter (threshold) 
 
 **RANK_PARAMETER**: Refers to the ranking filtering parameter
 
