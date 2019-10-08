@@ -1,0 +1,22 @@
+On a computer equipped with a Linux distribution.
+
+- Compile the program with './makelin'
+
+Then, you are able to run the shell script saillancepgm.sh as follows:
+
+1 - Connection values based on components area :
+./saillancepgm.sh Images/SH1.pgm 1 /tmp/resultat.pgm
+
+2 - Connection values based on depth of components (dynamics) :
+./saillancepgm.sh Images/SH1.pgm 3 /tmp/resultat.pgm
+
+3 - Connection values based on volume of components :
+./saillancepgm.sh Images/SH1.pgm 5 /tmp/resultat.pgm
+
+4 - Connection values based on volume a variation of the work of
+P. Felzenszwalb et al. (IJCV 2004)   Felzenswalb : 
+./saillancepgm.sh Images/SH1.pgm 7 /tmp/resultat.pgm
+
+
+For more details on these operators see :
+Jean Cousty and Laurent Najman. Incremental algorithm for hierarchical minimum spanning forests and saliency of watershed cuts. 10th International Symposium on Mathematical Morphology (ISMM'11). Lecture Notes in Computer Science.  2011. 

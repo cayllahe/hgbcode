@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "incrementalGraphSegmentation:graphSegmentation.c">
+      </ContextState>
+      <ContextState
+         contextName = "ultramopen:lhierarchie.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(double(*)[18])STAltitudes">
+            </PersistentString>
+            <PersistentString
+               value = "QCT-&gt;tabnodes[ 165] ">
+            </PersistentString>
+            <PersistentString
+               value = "QCT-&gt;tabnodes[ QCT-&gt;root ] ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "createNodeAltitude:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[CT-&gt;tabnodes[z].father]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "attachAltitude:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[idxP]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "createNode:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[z]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "detach:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[idxP]">
+            </PersistentString>
+            <PersistentString
+               value = "node-&gt;next">
+            </PersistentString>
+            <PersistentString
+               value = "node-&gt;last">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "minimizationLambdasIntervalVolume:graphSegmentation.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "lambda">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "newFvalue:graphSegmentation.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(double(*)[24])STOrigAltitudes">
+            </PersistentString>
+            <PersistentString
+               value = "*(double(*)[24])STAltitudes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IncrementalQFZfromMST:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CompTree-&gt;tabnodes[CompTree-&gt;root]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "treeUpdate:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "STaltitudes[p1]">
+            </PersistentString>
+            <PersistentString
+               value = "STaltitudes[n]">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "STaltitudes[p2]">
+            </PersistentString>
+            <PersistentString
+               value = "STaltitudes[np]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "getQBT:lhierarchie.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(double(*)[10]) STAltitudes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "initializeTree:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[z]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CanonizeQBTSegmentationMin:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "STMinWeight[c-&gt;son]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "attachAttributes:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[idxP].lastson">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "treeUpdateAttributes:lcomptree.c">
+      </ContextState>
+      <ContextState
+         contextName = "main:imageSegmentation.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(double(*)[10])Av">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "componentTreeAltitudes:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(double(*)[23])Altitudes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "treeUpdateAltitude:lcomptree.c">
+      </ContextState>
+      <ContextState
+         contextName = "getMST:graphSegmentation.c">
+      </ContextState>
+      <ContextState
+         contextName = "findTransition:lcomptree.c">
+      </ContextState>
+      <ContextState
+         contextName = "getComponentAtLambda:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[tmpFather]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:incremental.c">
+      </ContextState>
+      <ContextState
+         contextName = "BPTAO:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*( int(*)[23] )clefs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "graphFromMST:mcweightgraph.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*( double(*)[20] )g-&gt;weight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "componentTreePrint:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[root]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "componentTreeAttribute:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[root]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "graphSegmentation:graphSegmentation.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*( double(*)[25])STAltitudes">
+            </PersistentString>
+            <PersistentString
+               value = "mst-&gt;MSTedges[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CanonizeQBT:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "QCT-&gt;tabnodes[p]">
+            </PersistentString>
+            <PersistentString
+               value = "QCT-&gt;tabnodes[6]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "merge:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[larger]">
+            </PersistentString>
+            <PersistentString
+               value = "CT-&gt;tabnodes[smaller]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "attach:lcomptree.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "CT-&gt;tabnodes[idxP]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

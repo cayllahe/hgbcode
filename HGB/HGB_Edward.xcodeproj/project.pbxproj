@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3879102208B17200051025 /* HgbSegInterval.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7A21521370AFF000A80D4 /* HgbSegInterval.c */; };
+		3D3A6C791D75F72D005E054E /* dealpng.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A6C781D75F72D005E054E /* dealpng.c */; };
+		3D5B2E0D1EA670E1009B033B /* graphSegmentation.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4B7CC1D6B6F0D00735CD6 /* graphSegmentation.c */; };
+		3D90BE381E7A09B800167AED /* lcomptree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD640611D181B2E00E438C7 /* lcomptree.c */; };
+		3D9FD8A11D1960020015AD31 /* lhierarchie.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD640621D181B2E00E438C7 /* lhierarchie.c */; };
+		3DAD41091D6B80BD008A3113 /* MST.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD41081D6B80BD008A3113 /* MST.c */; };
+		3DB4754C1ED883180098F137 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4754B1ED883180098F137 /* list.c */; };
+		3DCC61F12003AC3E00CC8766 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCC61F02003AC3E00CC8766 /* libpng16.a */; };
+		3DD6406E1D181B2E00E438C7 /* llca.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD640631D181B2E00E438C7 /* llca.c */; };
+		3DD6406F1D181B2E00E438C7 /* mcimage.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD640641D181B2E00E438C7 /* mcimage.c */; };
+		3DD640711D181B2E00E438C7 /* mcsort.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD640661D181B2E00E438C7 /* mcsort.c */; };
+		3DD640721D181B2E00E438C7 /* mcunionfind.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD640671D181B2E00E438C7 /* mcunionfind.c */; };
+		3DD640731D181B2E00E438C7 /* mcweightgraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD640681D181B2E00E438C7 /* mcweightgraph.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DD640361D18195500E438C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D3A6C741D75E065005E054E /* dealpng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dealpng.h; sourceTree = "<group>"; };
+		3D3A6C781D75F72D005E054E /* dealpng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dealpng.c; sourceTree = "<group>"; };
+		3D93CD73218758A5003A375E /* dualHGB.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dualHGB.c; sourceTree = "<group>"; };
+		3DA776162004FEE7002F3A9E /* HgbSegmentation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HgbSegmentation.c; sourceTree = "<group>"; };
+		3DA82DD31D6B72290033B217 /* graphSegmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphSegmentation.h; sourceTree = "<group>"; };
+		3DAD41081D6B80BD008A3113 /* MST.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MST.c; sourceTree = "<group>"; };
+		3DAD410A1D6B80E8008A3113 /* MST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MST.h; sourceTree = "<group>"; };
+		3DB4754A1ED8830F0098F137 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		3DB4754B1ED883180098F137 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		3DC4B7CC1D6B6F0D00735CD6 /* graphSegmentation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = graphSegmentation.c; sourceTree = "<group>"; };
+		3DCC61F02003AC3E00CC8766 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../../../../../../usr/local/Cellar/libpng/1.6.34/lib/libpng16.a; sourceTree = "<group>"; };
+		3DD169A11E6700ED00838624 /* computeQFZ.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = computeQFZ.c; sourceTree = "<group>"; };
+		3DD169A41E671EEA00838624 /* incrementalSegmentation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = incrementalSegmentation.c; sourceTree = "<group>"; };
+		3DD640381D18195500E438C7 /* HGB_Edward */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HGB_Edward; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD640471D181B2E00E438C7 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		3DD640481D181B2E00E438C7 /* general.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = general.make; sourceTree = "<group>"; };
+		3DD6404A1D181B2E00E438C7 /* lcomptree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcomptree.h; sourceTree = "<group>"; };
+		3DD6404B1D181B2E00E438C7 /* lhierarchie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhierarchie.h; sourceTree = "<group>"; };
+		3DD6404C1D181B2E00E438C7 /* llca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llca.h; sourceTree = "<group>"; };
+		3DD6404D1D181B2E00E438C7 /* mccodimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mccodimage.h; sourceTree = "<group>"; };
+		3DD6404E1D181B2E00E438C7 /* mcimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcimage.h; sourceTree = "<group>"; };
+		3DD6404F1D181B2E00E438C7 /* mcmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcmesh.h; sourceTree = "<group>"; };
+		3DD640501D181B2E00E438C7 /* mcsort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcsort.h; sourceTree = "<group>"; };
+		3DD640511D181B2E00E438C7 /* mcunionfind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcunionfind.h; sourceTree = "<group>"; };
+		3DD640521D181B2E00E438C7 /* mcutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcutil.h; sourceTree = "<group>"; };
+		3DD640531D181B2E00E438C7 /* mcweightgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcweightgraph.h; sourceTree = "<group>"; };
+		3DD640561D181B2E00E438C7 /* li.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = li.make; sourceTree = "<group>"; };
+		3DD6405A1D181B2E00E438C7 /* makelin */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = makelin; sourceTree = "<group>"; };
+		3DD6405B1D181B2E00E438C7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3DD6405E1D181B2E00E438C7 /* ppm2graph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppm2graph.c; sourceTree = "<group>"; };
+		3DD6405F1D181B2E00E438C7 /* ultramopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ultramopen.c; sourceTree = "<group>"; };
+		3DD640611D181B2E00E438C7 /* lcomptree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcomptree.c; sourceTree = "<group>"; };
+		3DD640621D181B2E00E438C7 /* lhierarchie.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lhierarchie.c; sourceTree = "<group>"; };
+		3DD640631D181B2E00E438C7 /* llca.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llca.c; sourceTree = "<group>"; };
+		3DD640641D181B2E00E438C7 /* mcimage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mcimage.c; sourceTree = "<group>"; };
+		3DD640651D181B2E00E438C7 /* mciomesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mciomesh.c; sourceTree = "<group>"; };
+		3DD640661D181B2E00E438C7 /* mcsort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mcsort.c; sourceTree = "<group>"; };
+		3DD640671D181B2E00E438C7 /* mcunionfind.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mcunionfind.c; sourceTree = "<group>"; };
+		3DD640681D181B2E00E438C7 /* mcweightgraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mcweightgraph.c; sourceTree = "<group>"; };
+		3DF7A21521370AFF000A80D4 /* HgbSegInterval.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HgbSegInterval.c; sourceTree = "<group>"; };
+		3DFB3E251E54443F00ADCEA7 /* incremental.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = incremental.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD640351D18195500E438C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCC61F12003AC3E00CC8766 /* libpng16.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCC61EF2003AC3D00CC8766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC61F02003AC3E00CC8766 /* libpng16.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DD6402F1D18195500E438C7 = {
+			isa = PBXGroup;
+			children = (
+				3DD640471D181B2E00E438C7 /* makefile */,
+				3DD640481D181B2E00E438C7 /* general.make */,
+				3DD640491D181B2E00E438C7 /* include */,
+				3DD640561D181B2E00E438C7 /* li.make */,
+				3DD640571D181B2E00E438C7 /* linux */,
+				3DD6405A1D181B2E00E438C7 /* makelin */,
+				3DD6405B1D181B2E00E438C7 /* README */,
+				3DD6405C1D181B2E00E438C7 /* src */,
+				3DD640391D18195500E438C7 /* Products */,
+				3DCC61EF2003AC3D00CC8766 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD640391D18195500E438C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD640381D18195500E438C7 /* HGB_Edward */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD640491D181B2E00E438C7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4754A1ED8830F0098F137 /* list.h */,
+				3DA82DD31D6B72290033B217 /* graphSegmentation.h */,
+				3DD6404A1D181B2E00E438C7 /* lcomptree.h */,
+				3DD6404B1D181B2E00E438C7 /* lhierarchie.h */,
+				3DD6404C1D181B2E00E438C7 /* llca.h */,
+				3DD6404D1D181B2E00E438C7 /* mccodimage.h */,
+				3DD6404E1D181B2E00E438C7 /* mcimage.h */,
+				3DD6404F1D181B2E00E438C7 /* mcmesh.h */,
+				3DD640501D181B2E00E438C7 /* mcsort.h */,
+				3DD640511D181B2E00E438C7 /* mcunionfind.h */,
+				3DD640521D181B2E00E438C7 /* mcutil.h */,
+				3DD640531D181B2E00E438C7 /* mcweightgraph.h */,
+				3DAD410A1D6B80E8008A3113 /* MST.h */,
+				3D3A6C741D75E065005E054E /* dealpng.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3DD640571D181B2E00E438C7 /* linux */ = {
+			isa = PBXGroup;
+			children = (
+				3DD640581D181B2E00E438C7 /* bin */,
+				3DD640591D181B2E00E438C7 /* obj */,
+			);
+			path = linux;
+			sourceTree = "<group>";
+		};
+		3DD640581D181B2E00E438C7 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		3DD640591D181B2E00E438C7 /* obj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		3DD6405C1D181B2E00E438C7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3DD6405D1D181B2E00E438C7 /* com */,
+				3DD640601D181B2E00E438C7 /* lib */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3DD6405D1D181B2E00E438C7 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				3DA776162004FEE7002F3A9E /* HgbSegmentation.c */,
+				3DF7A21521370AFF000A80D4 /* HgbSegInterval.c */,
+				3DD6405E1D181B2E00E438C7 /* ppm2graph.c */,
+				3DD6405F1D181B2E00E438C7 /* ultramopen.c */,
+				3DD169A11E6700ED00838624 /* computeQFZ.c */,
+				3DFB3E251E54443F00ADCEA7 /* incremental.c */,
+				3DD169A41E671EEA00838624 /* incrementalSegmentation.c */,
+				3D93CD73218758A5003A375E /* dualHGB.c */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		3DD640601D181B2E00E438C7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4754B1ED883180098F137 /* list.c */,
+				3DD640611D181B2E00E438C7 /* lcomptree.c */,
+				3DD640621D181B2E00E438C7 /* lhierarchie.c */,
+				3DD640631D181B2E00E438C7 /* llca.c */,
+				3DD640641D181B2E00E438C7 /* mcimage.c */,
+				3DD640651D181B2E00E438C7 /* mciomesh.c */,
+				3DD640661D181B2E00E438C7 /* mcsort.c */,
+				3DD640671D181B2E00E438C7 /* mcunionfind.c */,
+				3DD640681D181B2E00E438C7 /* mcweightgraph.c */,
+				3DC4B7CC1D6B6F0D00735CD6 /* graphSegmentation.c */,
+				3DAD41081D6B80BD008A3113 /* MST.c */,
+				3D3A6C781D75F72D005E054E /* dealpng.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD640371D18195500E438C7 /* HGB_Edward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD6403F1D18195500E438C7 /* Build configuration list for PBXNativeTarget "HGB_Edward" */;
+			buildPhases = (
+				3DD640341D18195500E438C7 /* Sources */,
+				3DD640351D18195500E438C7 /* Frameworks */,
+				3DD640361D18195500E438C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGB_Edward;
+			productName = SM_Edward;
+			productReference = 3DD640381D18195500E438C7 /* HGB_Edward */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD640301D18195500E438C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Edward Cayllahua";
+				TargetAttributes = {
+					3DD640371D18195500E438C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DD640331D18195500E438C7 /* Build configuration list for PBXProject "HGB_Edward" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DD6402F1D18195500E438C7;
+			productRefGroup = 3DD640391D18195500E438C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD640371D18195500E438C7 /* HGB_Edward */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD640341D18195500E438C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B2E0D1EA670E1009B033B /* graphSegmentation.c in Sources */,
+				3D90BE381E7A09B800167AED /* lcomptree.c in Sources */,
+				3DD640711D181B2E00E438C7 /* mcsort.c in Sources */,
+				3DB4754C1ED883180098F137 /* list.c in Sources */,
+				3DD6406F1D181B2E00E438C7 /* mcimage.c in Sources */,
+				3DD6406E1D181B2E00E438C7 /* llca.c in Sources */,
+				3D3879102208B17200051025 /* HgbSegInterval.c in Sources */,
+				3DAD41091D6B80BD008A3113 /* MST.c in Sources */,
+				3DD640721D181B2E00E438C7 /* mcunionfind.c in Sources */,
+				3DD640731D181B2E00E438C7 /* mcweightgraph.c in Sources */,
+				3D3A6C791D75F72D005E054E /* dealpng.c in Sources */,
+				3D9FD8A11D1960020015AD31 /* lhierarchie.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DD6403D1D18195500E438C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = UNIXIO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				UNIXIO = "";
+			};
+			name = Debug;
+		};
+		3DD6403E1D18195500E438C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				UNIXIO = "";
+			};
+			name = Release;
+		};
+		3DD640401D18195500E438C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"-I",
+					/Users/edus/Dropbox/MatMorphology/codigo/HGB_Edward/include,
+					/usr/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				UNIXIO = YES;
+			};
+			name = Debug;
+		};
+		3DD640411D18195500E438C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				HEADER_SEARCH_PATHS = (
+					"-I",
+					/Users/edus/Dropbox/MatMorphology/codigo/HGB_Edward/include,
+					/usr/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				UNIXIO = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD640331D18195500E438C7 /* Build configuration list for PBXProject "HGB_Edward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD6403D1D18195500E438C7 /* Debug */,
+				3DD6403E1D18195500E438C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3DD6403F1D18195500E438C7 /* Build configuration list for PBXNativeTarget "HGB_Edward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD640401D18195500E438C7 /* Debug */,
+				3DD640411D18195500E438C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD640301D18195500E438C7 /* Project object */;
+}

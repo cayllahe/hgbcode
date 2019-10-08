@@ -1,0 +1,29 @@
+Read a ppm file and saves it to .graph format
+
+usage: 
+
+	USAGE: %s IN.ppm mode OUT.graph \n",arg);
+
+    printf("When mode = 1 ->  4 connected,  Euclidean distance in Lab space is used as gradient\n")
+    printf("When mode = 2 -> 8 connected,  Euclidean distance in Lab space is used as gradient\n")
+    printf("When mode = 3 -> 4 connected,  Euclidean distance in RGB space is used as gradient\n")
+    printf("When mode = 4 -> 8 connected, Euclidean distance in RGB space is used as gradient\n")
+
+case 1:
+            LAB4connectedRGB( fR, fG, fB , rs, cs, argv[3]);
+            break;
+        case 2:
+            LAB8connectedRGB( fR, fG, fB , rs, cs, argv[3]);
+            break;
+            
+        case 3:
+            if ( imagetype == 1)
+                euclidian4connectedRGB( fR, fG, fB , rs, cs, argv[3]);
+            else
+                euclidian4connectedGray(fGray,rs, cs, argv[3] );
+            break;
+        case 4:
+            if ( imagetype == 1)
+                euclidian8connectedRGB( fR, fG, fB , rs, cs, argv[3]);
+            else
+               euclidian8connectedGray(fGray,rs, cs, argv[3] );
