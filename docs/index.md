@@ -5,11 +5,11 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
 
 ### Images and Results
 
-![useful image]({{ site.url }}/assets/Figures/2010_000666.png)
-![useful image]({{ site.url }}/assets/Figures/MinSM.png)
-![useful image]({{ site.url }}/assets/Figures/UpperPrankSM.png)
-![useful image]({{ site.url }}/assets/Figures/upperPrank.png)
-![useful image]({{ site.url }}/assets/Figures/Min_rule.png)
+![useful image]({{ site.url }}/docs/assets/Figures/2010_000666.png)
+![useful image]({{ site.url }}/docs/assets/Figures/MinSM.png)
+![useful image]({{ site.url }}/docs/assets/Figures/UpperPrankSM.png)
+![useful image]({{ site.url }}/docs/assets/Figures/upperPrank.png)
+![useful image]({{ site.url }}/docs/assets/Figures/Min_rule.png)
 
 
 ### Build/Install
