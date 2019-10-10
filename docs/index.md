@@ -5,7 +5,7 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
 
 ### Images and Results
 
-![Image](https://github.com/cayllahe/hgbcode/blob/master/docs/assets/Figures/2010_000666.png)
+![Image](https://github.com/cayllahe/hgbcode/blob/master/docs/assets/2010_000666.png)
 ![image2]({{ site.url }}/docs/assets/Figures/MinSM.png)
 ![image3]({{ site.url }}/docs/assets/Figures/UpperPrankSM.png)
 ![image4]({{ site.url }}/docs/assets/Figures/upperPrank.png)
