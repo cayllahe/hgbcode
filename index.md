@@ -1,26 +1,6 @@
-Hierarchical Graph Based Segmentation (HGB)
-This is the code for hierarchical graph based segmentation from a non increasing edge observation attribute [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
+Hierarchical graph based segmentation (HGB) from a non increasing edge observation attribute [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
-
-### Citation 
-Please cite as
-
-```
-@InProceedings{Cayllahuaetal2019,
-author="Cayllahua-Cahuina, Edward
-and Cousty, Jean
-and Guimar{\~a}es, Silvio
-and Kenmochi, Yukiko
-and C{\'a}mara-Ch{\'a}vez, Guillermo
-and de Albuquerque Ara{\'u}jo, Arnaldo",
-title="A Study of Observation Scales Based on Felzenswalb-Huttenlocher Dissimilarity Measure for Hierarchical Segmentation",
-booktitle="Discrete Geometry for Computer Imagery",
-year="2019",
-publisher="Springer International Publishing",
-pages="167--179",
-isbn="978-3-030-14085-4"
-}
-```
+### Images
 
 
 ### Build/Install
@@ -71,5 +51,24 @@ Where:
 ./hgbSegmentation.sh Images/3063.ppm /tmp/salida.pgm 11 100 0.1 
 ```
 
+### Citation 
+Please cite as
+
+```
+@InProceedings{Cayllahuaetal2019,
+author="Cayllahua-Cahuina, Edward
+and Cousty, Jean
+and Guimar{\~a}es, Silvio
+and Kenmochi, Yukiko
+and C{\'a}mara-Ch{\'a}vez, Guillermo
+and de Albuquerque Ara{\'u}jo, Arnaldo",
+title="A Study of Observation Scales Based on Felzenswalb-Huttenlocher Dissimilarity Measure for Hierarchical Segmentation",
+booktitle="Discrete Geometry for Computer Imagery",
+year="2019",
+publisher="Springer International Publishing",
+pages="167--179",
+isbn="978-3-030-14085-4"
+}
+```
 
 
