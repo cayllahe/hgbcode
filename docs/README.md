@@ -1,4 +1,4 @@
-## Hierarchical graph based segmentation
+
 
 This is the code for hierarchical graph based segmentation from a non increasing edge observation attribute [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
