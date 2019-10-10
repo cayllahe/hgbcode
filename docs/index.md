@@ -11,7 +11,6 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
 ![image4]({{ site.url }}/docs/assets/Figures/upperPrank.png)
 ![image5]({{ site.url }}/docs/assets/Figures/Min_rule.png)
 
-
 ### Build/Install
 This code was compiled and executed in Linux. To compile use:
 ``` 
