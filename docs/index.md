@@ -1,6 +1,10 @@
-Hierarchical graph based segmentation (HGB) from a non increasing edge observation attribute [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
+Hierarchical image segmentation provides region-oriented scale-spaces:
+sets of image segmentations at different detail levels in which the
+segmentations at finer levels are nested with respect to those at
+coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
-### Images
+### Images and Results
+
 
 
 ### Build/Install
