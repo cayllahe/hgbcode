@@ -4,9 +4,10 @@ segmentations at finer levels are nested with respect to those at
 coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
 ### Images and Results
+![](https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png?v=4&s=30) 
 
-![](https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png?v=4&s=10)
-![]({{ site.url }}/hgbcode/assets/Figures/MinSM.png?v=5&s=80)
+
+![]({{ site.url }}/hgbcode/assets/Figures/MinSM.png?v=5&s=80) 
 ![]({{ site.url }}/hgbcode/assets/Figures/UpperPrankSM.png?v=6&s=80)
 ![]({{ site.url }}/hgbcode/assets/Figures/upperPrank.png?v=7&s=80)
 ![]({{ site.url }}/hgbcode/assets/Figures/Min_rule.png?v=8&s=80)
