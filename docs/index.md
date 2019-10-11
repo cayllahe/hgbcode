@@ -5,7 +5,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 
 ### Authors
 
-<table style="width:100%" cellpadding="0" cellspacing="0" border="0" >
+<table cellpadding="0" cellspacing="0" border="0" >
   <tr border="0"  >
 <td border="0" >Edward Cayllahua Cahuina</td>
 <td border="0" > Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
