@@ -8,45 +8,45 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 
 
 
-ligm.png
-npdi.png
-puc.png
-ufmg.png
-ufop.png
-
-
 
 <table style="width:100%; border:none">
   <tr>
 <td>Edward Cayllahua Cahuina</td>
 <td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-<td><img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="80" height="60"><img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="80" height="60"></td>
+<td rowspan="2"><img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="30"><img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="30">
+<img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="30">
+<img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="30">
+<img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="30">
+<img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="30">
+</td>
 </tr>
 <tr>   
 <td>Jean Cousty</td>
-<td></td>
 <td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
 </tr>
+<td></td>
 <tr>
 <td>Silvio Guimarães</td>
-<td></td>
 <td> Pontifical Catholic University of Minas Gerais, Computer Science Department, VIPLAB</td>
+<td></td>
 </tr>
 <tr>
 <td>Yukiko Kenmochi</td>
-<td></td>
+
 <td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
+<td></td>
 </tr>
 <tr>
 <td>Guillermo Cámara-Chávez</td>
-<td></td>
 <td> Universidade Federal de Ouro Preto, Computer Science Department</td>
+<td></td>
 </tr>
 <tr>
 <td>Arnaldo de Albuquerque Araújo</td>
-<td></td>
 <td> Universidade Federal de Minas Gerais, Computer Science Department</td>
+<td></td>
 </tr>
+
 </table>
 
 ### Results
