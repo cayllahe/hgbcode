@@ -6,7 +6,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 ### Authors
 
 
-<table class="" style="width: 100%;border: 0;border-collapse: collapse" >
+<table class="beta">
   <tr >
     <td>Edward Cayllahua-Cahuina</td>
     <td>Jean Cousty</td>
@@ -19,15 +19,13 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
   </tr>
     <tr>
     <td colspan="2"> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-    <td rowspan="6" valign="bottom" >
-    <div class="" style="max-width: 100%; max-height: 100%;">
+    <td rowspan="4">    
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40"><br>
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70">
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="100"><br>
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70">
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="90">
-    </div>
     </td>
     </tr>
     <tr>    
