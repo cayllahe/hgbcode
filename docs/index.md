@@ -1,11 +1,9 @@
 Hierarchical image segmentation provides region-oriented scale-spaces:
 sets of image segmentations at different detail levels in which the
 segmentations at finer levels are nested with respect to those at
-coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
+coarser levels. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [Article](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
 ### Results
-
-
 <table style="width:100%">
   <tr>
     <th>Image</th>
@@ -28,9 +26,9 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
   </tr>
 </table>
-
+Images can be downloaded from [LINK](https://drive.google.com/drive/folders/1zYyttKRxeCmk5235wKfV3hfMmeoRSdK2)
 ### Get the code
-The code is available at [link](https://github.com/cayllahe/hgbcode).
+The code is available at [CODE](https://github.com/cayllahe/hgbcode).
 
 ### Build/Install
 This code was compiled and executed in Linux. To compile use:
