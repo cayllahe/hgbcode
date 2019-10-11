@@ -5,21 +5,35 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
 
 ### Images and Results
 
-<img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166">
 
-<img src="https://cayllahe.github.io/hgbcode/assets/Figures/MinSM.png" width="255" height="166">
+<table style="width:100%">
+  <tr>
+    <th>Image</th>
+    <th>Saliency map for original Min-rule</th>
+    <th>Saliency map for proposed Upper P-rank</th>
+  </tr>
+  <tr>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/MinSM.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
 
-<img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166">
+
+
+
+
+
+
 
 <img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166">
 
 <img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166">
-
-![](https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png?v=4&s=3)
-![]({{ site.url }}/hgbcode/assets/Figures/MinSM.png?v=5&s=80) 
-![]({{ site.url }}/hgbcode/assets/Figures/UpperPrankSM.png?v=6&s=80)
-![]({{ site.url }}/hgbcode/assets/Figures/upperPrank.png?v=7&s=80)
-![]({{ site.url }}/hgbcode/assets/Figures/Min_rule.png?v=8&s=80)
 
 ### Build/Install
 This code was compiled and executed in Linux. To compile use:
