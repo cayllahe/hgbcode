@@ -43,34 +43,30 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
   <tr >
     <td>Edward Cayllahua-Cahuina</td>
     <td>Jean Cousty</td>
-    <td>Silvio Guimarães</td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45"></td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40"></td>
+    <td>Silvio Guimarães</td>    
   </tr>
   <tr>
     <td>Yukiko Kenmochi</td>
     <td>Guillermo Cámara-Chávez</td>
-    <td>Arnaldo de Albuquerque Araújo</td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70"></td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70"></td>    
+    <td>Arnaldo de Albuquerque Araújo</td>    
   </tr>
     <tr>
-    <td colspan="3"> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-    <td rowspan="3">    
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="110">    
-    </td>
-    <td rowspan="3">    
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="110">    
-    </td>
+    <td colspan="3"> 
+        Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM <br>
+        Pontifical Catholic University of Minas Gerais, Computer Science Department, VIPLAB <br>
+        Universidade Federal de Ouro Preto, Computer Science Department<br>
+        Universidade Federal de Minas Gerais, Computer Science Department
+    </td>    
     </tr>
-    <tr>    
-    <td colspan="3"> Pontifical Catholic University of Minas Gerais, Computer Science Department, VIPLAB</td>
-    </tr>
-    <tr>
-    <td colspan="3"> Universidade Federal de Ouro Preto, Computer Science Department</td>
-    </tr>
-    <tr>
-    <td colspan="3"> Universidade Federal de Minas Gerais, Computer Science Department</td>
+    <tr> 
+    <td>    
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40"><br>
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="100"><br>
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="90">
+    </td>>   
     </tr>
 </table>
 
