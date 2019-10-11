@@ -18,12 +18,12 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
   <tr>
-    <td></td>
-    <td>Segmentation obtained from Min-rule hierarchy</td>
-    <td>Segmentation obtained from Upper P-rank hierarchy</td>
+    <td rowspan="2"></td>
+    <th>A segmentation obtained from Min-rule hierarchy</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy</th>
   </tr>
   <tr>
-    <td></td>
+    
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
   </tr>
