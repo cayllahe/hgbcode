@@ -7,9 +7,7 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
 ![](https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png?v=4&s=3)again
 ({{ site.url }}/hgbcode/assets/Figures/MinSM.png|width=20px)
 
-{:refdef: style="width: 10px; height: 10px"}
-[![Octocat]({{ site.url }}/hgbcode/assets/Figures/MinSM.png)](./somelink)
-{:refdef}
+<img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="100" height="100">
 
 
 ![]({{ site.url }}/hgbcode/assets/Figures/MinSM.png?v=5&s=80) 
