@@ -4,12 +4,18 @@ segmentations at finer levels are nested with respect to those at
 coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
 ### Images and Results
-![](https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png?v=4&s=3)again
-({{ site.url }}/hgbcode/assets/Figures/MinSM.png|width=20px)
 
-<img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="100" height="100">
+<img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166">
 
+<img src="https://cayllahe.github.io/hgbcode/assets/Figures/MinSM.png" width="255" height="166">
 
+<img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166">
+
+<img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166">
+
+<img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166">
+
+![](https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png?v=4&s=3)
 ![]({{ site.url }}/hgbcode/assets/Figures/MinSM.png?v=5&s=80) 
 ![]({{ site.url }}/hgbcode/assets/Figures/UpperPrankSM.png?v=6&s=80)
 ![]({{ site.url }}/hgbcode/assets/Figures/upperPrank.png?v=7&s=80)
