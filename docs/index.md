@@ -51,7 +51,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 <table style="width:100%">
   <tr>
     <th>Image</th>
-    <th>Result of the original [HGB method](https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf) (saliency map)</th>
+    <th>Result of the original <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf">HGB method</a> (saliency map)</th>
     <th>Result of the HGB method with the newly proposed  upper P-rank selection strategy</th>
   </tr>
   <tr>
