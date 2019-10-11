@@ -60,13 +60,13 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
     </tr>
     <tr> 
     <td colspan="3">    
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40"><br>
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="100">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70"><br>
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="90">
-    </td>>   
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="100">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="90">
+        </td>   
     </tr>
 </table>
 
