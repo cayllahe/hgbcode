@@ -5,11 +5,11 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 
 ### Authors
 
-<table cellpadding="0" cellspacing="0" border="0" >
-  <tr border="0"  >
-<td border="0" >Edward Cayllahua Cahuina</td>
-<td border="0" > Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-<td rowspan="6" border="0" >
+<table style="width: 100%;border: 0;border-collapse: collapse" >
+  <tr >
+<td>Edward Cayllahua Cahuina</td>
+<td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
+<td rowspan="6">
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="35">
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="35">
     <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="50">
