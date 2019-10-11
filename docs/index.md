@@ -8,7 +8,8 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 .tablelines table{
         width: 120%;
         border: none!important;
-        border-collapse: collapse;        
+        border-collapse: collapse;       
+        border-spacing: 0;        
         }
 .tablelines td{
     border: none!important;
