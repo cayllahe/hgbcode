@@ -39,46 +39,42 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
     </tr>
 </table>
 
-
-
-
-
-<table class="" style="width: 100%;border: 0;border-collapse: collapse" >
+<table class="beta">
   <tr >
-<td>Edward Cayllahua-Cahuina</td>
-<td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-<td rowspan="6" valign="bottom" >
-    <div class="" style="max-width: 100%; max-height: 100%;">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40"><br>
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="100"><br>
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="90">
-    </div>
-</td>
-</tr>
-<tr>   
-<td>Jean Cousty</td>
-<td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-</tr>
-<tr>
-<td>Silvio Guimarães</td>
-<td> Pontifical Catholic University of Minas Gerais, Computer Science Department, VIPLAB</td>
-</tr>
-<tr>
-<td>Yukiko Kenmochi</td>
-<td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-</tr>
-<tr>
-<td>Guillermo Cámara-Chávez</td>
-<td> Universidade Federal de Ouro Preto, Computer Science Department</td>
-</tr>
-<tr>
-<td>Arnaldo de Albuquerque Araújo</td>
-<td> Universidade Federal de Minas Gerais, Computer Science Department</td>
-</tr>
+    <td>Edward Cayllahua-Cahuina</td>
+    <td>Jean Cousty</td>
+    <td>Silvio Guimarães</td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40"></td>
+  </tr>
+  <tr>
+    <td>Yukiko Kenmochi</td>
+    <td>Guillermo Cámara-Chávez</td>
+    <td>Arnaldo de Albuquerque Araújo</td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70"></td>    
+  </tr>
+    <tr>
+    <td colspan="3"> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
+    <td rowspan="3">    
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="110">    
+    </td>
+    <td rowspan="3">    
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="110">    
+    </td>
+    </tr>
+    <tr>    
+    <td colspan="3"> Pontifical Catholic University of Minas Gerais, Computer Science Department, VIPLAB</td>
+    </tr>
+    <tr>
+    <td colspan="3"> Universidade Federal de Ouro Preto, Computer Science Department</td>
+    </tr>
+    <tr>
+    <td colspan="3"> Universidade Federal de Minas Gerais, Computer Science Department</td>
+    </tr>
 </table>
+
+
 
 ### Results
 #### Video
