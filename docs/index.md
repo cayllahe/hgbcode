@@ -1,7 +1,7 @@
 Hierarchical image segmentation provides region-oriented scale-spaces:
 sets of image segmentations at different detail levels in which the
 segmentations at finer levels are nested with respect to those at
-coarser levels. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [Article](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
+coarser levels. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> [Cayllahua-et-al, 2019] </a>.  
 
 ### Authors
 <style>
