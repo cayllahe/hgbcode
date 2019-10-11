@@ -29,7 +29,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
   </tr>
     <tr>
     <td colspan="3"> 
-        [1] LIGM - ESIEE Paris- Université Paris-Est <br>
+        [1] LIGM - ESIEE Paris - Université Paris-Est <br>
         [2] NPDI - DCC - Universidade Federal de Minas Gerais<br>
         [3] VIPLAB - Pontifícia Universidade Católica De Minas Gerais <br>
         [4] DCC - Universidade Federal de Ouro Preto
