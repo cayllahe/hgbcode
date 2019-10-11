@@ -10,7 +10,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 
 
 
-<table style="width:100%" style="border-collapse: collapse; border: none;">
+<table style="width:100%; border-collapse: collapse; border: none;">
   <tr>
 <td>Edward Cayllahua Cahuina</td>
 <td></td>
