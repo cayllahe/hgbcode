@@ -6,6 +6,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 ### Authors
 <style>
 .tablelines table, .tablelines td, .tablelines th {
+        width:600px
         border: none!important;
         border-collapse: collapse;
         cellspacing: 0;
