@@ -26,7 +26,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
   </tr>
 </table>
-Images can be downloaded from [LINK](https://drive.google.com/drive/folders/1zYyttKRxeCmk5235wKfV3hfMmeoRSdK2)
+Files can be downloaded from [LINK](https://drive.google.com/drive/folders/1zYyttKRxeCmk5235wKfV3hfMmeoRSdK2)
 ### Get the code
 The code is available at [CODE](https://github.com/cayllahe/hgbcode).
 
