@@ -17,9 +17,9 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 </style>
 <table class="tablelines">
   <tr >
-    <td width="40%">Edward Cayllahua-Cahuina [1,2]</td>
-    <td width="40%">Jean Cousty [1]</td>
-    <td width="40%">Silvio Guimarães [3]</td>    
+    <td width="35%">Edward Cayllahua-Cahuina [1,2]</td>
+    <td width="35%">Jean Cousty [1]</td>
+    <td width="35%">Silvio Guimarães [3]</td>    
   </tr>
   <tr>
     <td>Yukiko Kenmochi [1]</td>
