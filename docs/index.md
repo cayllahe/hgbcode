@@ -55,23 +55,21 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
     <th>Result of the HGB method with the newly proposed  upper P-rank selection strategy</th>
   </tr>
   <tr>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166"></td>
+    <td rowspan="3"><img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/MinSM.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
-  <tr>
-    <td rowspan="2"></td>
+  <tr>    
     <th>A segmentation obtained from Min-rule hierarchy</th>
     <th>A segmentation obtained from Upper P-rank hierarchy</th>
   </tr>
-  <tr>
-    
+  <tr>    
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
   </tr>
 </table>
 Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset. Click
-[here](https://cayllahe.github.io/hgbcode/assets/files) to see more hierarchical image segmentation results 
+[here](https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files) to see more hierarchical image segmentation results 
 ### Get the code
 Click [here](https://github.com/cayllahe/hgbcode) to get the code.
 
