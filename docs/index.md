@@ -4,42 +4,13 @@ segmentations at finer levels are nested with respect to those at
 coarser levels. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [Article](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
 ### Authors
-
-
-<table class="beta">
-  <tr >
-    <td>Edward Cayllahua-Cahuina</td>
-    <td>Jean Cousty</td>
-    <td>Silvio Guimarães</td>
-  </tr>
-  <tr>
-    <td>Yukiko Kenmochi</td>
-    <td>Guillermo Cámara-Chávez</td>
-    <td>Arnaldo de Albuquerque Araújo</td>
-  </tr>
-    <tr>
-    <td colspan="2"> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-    <td rowspan="4">    
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40"><br>
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="70">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="100"><br>
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="70">
-    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="90">
-    </td>
-    </tr>
-    <tr>    
-    <td colspan="2"> Pontifical Catholic University of Minas Gerais, Computer Science Department, VIPLAB</td>
-    </tr>
-    <tr>
-    <td colspan="2"> Universidade Federal de Ouro Preto, Computer Science Department</td>
-    </tr>
-    <tr>
-    <td colspan="2"> Universidade Federal de Minas Gerais, Computer Science Department</td>
-    </tr>
-</table>
-
-<table class="beta">
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 0;
+        border-collapse: collapse;
+        }
+</style>
+<table class="tablelines">
   <tr >
     <td>Edward Cayllahua-Cahuina [1,2]</td>
     <td>Jean Cousty [1]</td>
