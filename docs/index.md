@@ -151,4 +151,3 @@ zones, minimum spanning trees, and saliency maps <a href="https://hal.archives-o
 
 
 
-
