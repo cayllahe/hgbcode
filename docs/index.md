@@ -44,9 +44,9 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 </table>
 
 ### Results
-##Video
+## Video
 (TO BE INCLUDED)
-##Resulting hierarchy and segmentations
+## Resulting hierarchy and segmentations
 <table style="width:100%">
   <tr>
     <th>Image</th>
