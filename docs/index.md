@@ -51,8 +51,8 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 <table style="width:100%">
   <tr>
     <th>Image</th>
-    <th>Saliency map for original Min-rule</th>
-    <th>Saliency map for proposed Upper P-rank</th>
+    <th>Result of the original [HGB method](https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf)(saliency map)</th>
+    <th>Result of the HGB method with the newly proposed  upper P-rank selection strategy</th>
   </tr>
   <tr>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166"></td>
@@ -70,9 +70,10 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
   </tr>
 </table>
-Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset. Files can be downloaded from [LINK](https://drive.google.com/drive/folders/1zYyttKRxeCmk5235wKfV3hfMmeoRSdK2)
+Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset. Click
+[here](https://cayllahe.github.io/hgbcode/assets/files) to see more hierarchical image segmentation results 
 ### Get the code
-The code is available at [CODE](https://github.com/cayllahe/hgbcode).
+Click [here](https://github.com/cayllahe/hgbcode) to get the code.
 
 ### Build/Install
 This code was compiled and executed in Linux. To compile use:
@@ -141,5 +142,10 @@ pages="167--179",
 isbn="978-3-030-14085-4"
 }
 ```
+### Related articles to HGB
 
+* Efficient Algorithms for Hierarchical Graph-Based Segmentation Relying on the Felzenszwalb–Huttenlocher Dissimilarity [Cayllahua-et-al, 2019](https://repositorio.ufop.br/bitstream/123456789/11338/1/ARTIGO_EfficientAlgorithmsHierarchical.pdf);
+* Hierarchizing graph-based image segmentation algorithms relying on region dissimilarity [Guimaraes-et-al, 2017](https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf).
+* Hierarchical segmentations with graphs: quasi-flat
+zones, minimum spanning trees, and saliency maps [Cousty-et-al, 2018](https://hal.archives-ouvertes.fr/hal-01344727v2/document).
 
