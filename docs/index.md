@@ -8,13 +8,19 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 
 
 
+ligm.png
+npdi.png
+puc.png
+ufmg.png
+ufop.png
+
 
 
 <table style="width:100%; border:none">
   <tr>
 <td>Edward Cayllahua Cahuina</td>
-<td></td>
 <td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
+<td><img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="80" height="60"><img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="80" height="60"></td>
 </tr>
 <tr>   
 <td>Jean Cousty</td>
