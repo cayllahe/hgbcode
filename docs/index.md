@@ -3,7 +3,7 @@ sets of image segmentations at different detail levels in which the
 segmentations at finer levels are nested with respect to those at
 coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute. [link](https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14). 
 
-### Images and Results
+### Results
 
 
 <table style="width:100%">
@@ -18,22 +18,19 @@ coarser levels. This is the code gfor Hierarchical Graph Based Segmentation from
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+    <td></td>
+    <td>Segmentation obtained from Min-rule hierarchy</td>
+    <td>Segmentation obtained from Upper P-rank hierarchy</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
   </tr>
 </table>
 
-
-
-
-
-
-
-
-<img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166">
-
-<img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166">
+### Get the code
+The code is available at [link](https://github.com/cayllahe/hgbcode).
 
 ### Build/Install
 This code was compiled and executed in Linux. To compile use:
