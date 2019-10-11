@@ -71,7 +71,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset. Click
 [here](https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files) to see more hierarchical image segmentation results 
 ### Get the code
-Click [here](https://github.com/cayllahe/hgbcode) to get the code.
+Click <a href="https://github.com/cayllahe/hgbcode" target="_blank")>here</a> to get the code.
 
 ### Build/Install
 This code was compiled and executed in Linux. To compile use:
@@ -142,8 +142,13 @@ isbn="978-3-030-14085-4"
 ```
 ### Related articles to HGB
 
-* Efficient Algorithms for Hierarchical Graph-Based Segmentation Relying on the Felzenszwalb–Huttenlocher Dissimilarity [Cayllahua-et-al, 2019](https://repositorio.ufop.br/bitstream/123456789/11338/1/ARTIGO_EfficientAlgorithmsHierarchical.pdf);
-* Hierarchizing graph-based image segmentation algorithms relying on region dissimilarity [Guimaraes-et-al, 2017](https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf).
+* Efficient Algorithms for Hierarchical Graph-Based Segmentation Relying on the Felzenszwalb–Huttenlocher Dissimilarity <a href="https://repositorio.ufop.br/bitstream/123456789/11338/1/ARTIGO_EfficientAlgorithmsHierarchical.pdf" target="_blank")>Cayllahua-et-al, 2019</a>.
+* Hierarchizing graph-based image segmentation algorithms relying on region dissimilarity <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank")>Guimaraes-et-al, 2017</a>.
 * Hierarchical segmentations with graphs: quasi-flat
-zones, minimum spanning trees, and saliency maps [Cousty-et-al, 2018](https://hal.archives-ouvertes.fr/hal-01344727v2/document).
+zones, minimum spanning trees, and saliency maps <a href="https://hal.archives-ouvertes.fr/hal-01344727v2/document" target="_blank")>Cousty-et-al, 2018</a>.
+
+
+
+
+
 
