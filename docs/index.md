@@ -6,36 +6,33 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 ### Authors
 
 <table style="width:100%" cellpadding="0" cellspacing="0" border="0" >
-  <tr>
-<td>Edward Cayllahua Cahuina</td>
-<td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-<td rowspan="6"><img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="30"><img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="30">
-<img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="30">
-<img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="30">
-<img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="30">
-<img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="30">
+  <tr border="0"  >
+<td border="0" >Edward Cayllahua Cahuina</td>
+<td border="0" > Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
+<td rowspan="6" border="0" >
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="35">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="35">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="90" height="50">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="90" height="60">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="90" height="50">
+    <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="90" height="60">
 </td>
 </tr>
 <tr>   
 <td>Jean Cousty</td>
 <td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
 </tr>
-
 <tr>
 <td>Silvio Guimarães</td>
 <td> Pontifical Catholic University of Minas Gerais, Computer Science Department, VIPLAB</td>
-
 </tr>
 <tr>
 <td>Yukiko Kenmochi</td>
-
 <td> Université Paris-Est, LIGM, CNRS - ENPC - ESIEE Paris -UPEM </td>
-<td></td>
 </tr>
 <tr>
 <td>Guillermo Cámara-Chávez</td>
 <td> Universidade Federal de Ouro Preto, Computer Science Department</td>
-
 </tr>
 <tr>
 <td>Arnaldo de Albuquerque Araújo</td>
