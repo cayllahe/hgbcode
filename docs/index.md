@@ -57,6 +57,11 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
     frameborder="0" 
     allowfullscreen>
 </iframe>
+
+<video width="320" height="240" controls>
+  <source type="video/mpg" src="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg">
+</video>
+
 #### Resulting hierarchy and segmentations
 <table style="width:100%">
   <tr>
