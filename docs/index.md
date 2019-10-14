@@ -88,41 +88,36 @@ The program takes as input an image file in the format XXXX.ppm and produces as 
 To execute the program: 
 
 ```
-./hgbSegmentation.sh INPUT_IMAGE.ppm OUTPUT_SM.pgm OPTION TH_PARAMETER RANK_PARAMETER
+./hgbSegmentation.sh INPUT_IMAGE.ppm OUTPUT_SM.pgm OPTION PARAMETER AREASIMP
 ```
 Where:  
 
 **OPTION**:
 
 ```
-1: Use min-rule: select minimum value on positive observation intervals
-2: Use max-rule: select the last upper bound on negative intervals
+1: Use Min: select minimum value on positive observation intervals
+2: Use Max: select the last upper bound on negative intervals
 
-3: On positive intervals, apply length threshold and min-rule
-4: On negative intervals, apply length threshold and max-rule
+3: Lower-length: On positive intervals, apply length threshold and min-rule
+4: Upper-length: apply length threshold and max-rule
 
-5: On positive intervals, apply rank filter and  min-rule
-6: On negative intervals, apply rank filter and  max-rule
+5: Lower-area: On positive intervals, apply area and  min-rule
+6: Upper-Narea: On negative intervals, apply area and  max-rule
 
-7: On positive intervals, apply area and  min-rule
-8: On negative intervals, apply area and  max-rule
+7: Lower-depth: On positive intervals, apply depth filter and min-rule
+8: Upper-Ndepth: On negative intervals, apply depth filter and max-rule
 
-9: On negative intervals, apply area, then ranking and max-rule
-
-10: On positive intervals, apply volume filter and min-rule
-11: On negative intervals, apply volume filter and max-rule
-
-12: On positive intervals, apply depth filter and min-rule
-13: On negative intervals, apply depth filter and max-rule
+9: Lower p-rank: On positive intervals, apply rank filter and  min-rule
+10: Upper p-rank: On negative intervals, apply rank filter and  max-rule
 ```
 
-**TH_PARAMETER**: Refers to the  alpha parameter (threshold) 
+**PARAMETER**: Refers to the  alpha or ranking parameter (threshold)
 
-**RANK_PARAMETER**: Refers to the ranking filtering parameter
+**AREASIMP**: Refers to the area simplification parameter. If no value is passed, then the value 0.004 is assumed. 
 
 **Example**: 
 ```
-./hgbSegmentation.sh Images/3063.ppm /tmp/salida.pgm 11 100 0.1 
+./hgbSegmentation.sh Images/3063.ppm /tmp/salida.pgm 10 0.001 0.003 
 ```
 
 ### Citation 

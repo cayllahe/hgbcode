@@ -1,16 +1,11 @@
 #!/bin/bash
-echo "Compiling area filtering"
-cd UpperBoundBenjamin
+echo "Compiling Area Simplification"
+cd AreaSimplification
 make clean
 make
 cd ..
-echo "Compiling saliency map"
-cd sm
-make clean
-./makelin
-cd ..
-echo "Compiling image to graph"
-cd image2graph
+echo "Compiling graph Image Conversion"
+cd graphImageConversion
 make clean
 ./makelin
 cd ..

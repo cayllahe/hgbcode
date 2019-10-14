@@ -1,12 +1,39 @@
-//
-//  graphSegmentation.c
-//  SM_Edward
-//
-//  Created by Edward Cayllahua on 8/22/16.
-//  Copyright © 2016 Edward Cayllahua. All rights reserved.
-//
+/*
+Copyright ESIEE (2019) 
 
+edward.cayllahua@esiee.fr
 
+This software is an image processing library whose purpose is to be
+used primarily for research and teaching.
+
+This software is governed by the CeCILL  license under French law and
+abiding by the rules of distribution of free software. You can  use, 
+modify and/ or redistribute the software under the terms of the CeCILL
+license as circulated by CEA, CNRS and INRIA at the following URL
+"http://www.cecill.info". 
+
+As a counterpart to the access to the source code and  rights to copy,
+modify and redistribute granted by the license, users are provided only
+with a limited warranty  and the software's author,  the holder of the
+economic rights,  and the successive licensors  have only  limited
+liability. 
+
+In this respect, the user's attention is drawn to the risks associated
+with loading,  using,  modifying and/or developing or reproducing the
+software by the user in light of its specific status of free software,
+that may mean  that it is complicated to manipulate,  and  that  also
+therefore means  that it is reserved for developers  and  experienced
+professionals having in-depth computer knowledge. Users are therefore
+encouraged to load and test the software's suitability as regards their
+requirements in conditions enabling the security of their systems and/or 
+data to be ensured and,  more generally, to use and operate it in the 
+same conditions as regards security. 
+
+The fact that you are presently reading this means that you have had
+knowledge of the CeCILL license and that you accept its terms.
+*/
+
+/* authors : Edward Cayllahua - J. Cousty and Silvio Guimarães */
 
 
 #include<graphSegmentation.h>
@@ -1955,17 +1982,12 @@ double scaleSelection(graphe *g, MST* mst, JCctree **CompTree,  double  *STAltit
     
     double lambdaUpper = -9999;
     double lambdaLower = -9999;
-   // double total_l;
-   // NodeList* positiveInterval = NULL;
+   
     NodeList* positiveIntervalVol = NULL;
     NodeList* negativeIntervalVol = NULL;
     
-    //NodeList* negativeInterval = NULL;
-    //NodeList* LastNode = positiveInterval;
     NodeList* ln_neg = negativeIntervalVol;
     NodeList* ln_pos = positiveIntervalVol;
-  //  NodeList* lastNinterval = NULL;
-  //  int cn_intervals = -1;
     
     cx = x;
     cy = y;
@@ -1993,8 +2015,7 @@ double scaleSelection(graphe *g, MST* mst, JCctree **CompTree,  double  *STAltit
             if(D>lambda  ){
                 addValueDis(&negativeIntervalVol, &ln_neg, prevLambda, D);
                 addValueDis(&negativeIntervalVol, &ln_neg, lambda, D);
-                prevD = D;
-                //prevLambda = lambda;
+                prevD = D;                
                 if(STAltitudes[px ] == lambda )
                     cx =px;
                 if(STAltitudes[py ] == lambda )
@@ -2002,8 +2023,7 @@ double scaleSelection(graphe *g, MST* mst, JCctree **CompTree,  double  *STAltit
             }
         }
         if(D <= prevLambda) {
-            lambdaLower = prevLambda + 0.009;
-            //lambdaLower = prevLambda ;
+            lambdaLower = prevLambda + 0.009;            
         }
         else{
             lambdaLower = D ;
@@ -2015,12 +2035,6 @@ double scaleSelection(graphe *g, MST* mst, JCctree **CompTree,  double  *STAltit
         prevLambda = lambdaLower;
         prevD = -99999999;
         
-//        if(lambda == prevLambda ){
-//            if(px!=-1 && STAltitudes[px ] == lambda )
-//                cx =px;
-//            if(py!=-1 && STAltitudes[py ] == lambda )
-//                cy =py;
-//        }
         
         
         while( D<=lambda  &&( px!=-1&&py!=-1)){
@@ -2051,12 +2065,6 @@ double scaleSelection(graphe *g, MST* mst, JCctree **CompTree,  double  *STAltit
                 if(py!=-1 && STAltitudes[py ] == lambda )
                      cy =py;
             }
-//            else if(prevLambda == lambda ){
-//                    if(px!=-1 && STAltitudes[px ] == lambda )
-//                        cx =px;
-//                    if(py!=-1 && STAltitudes[py ] == lambda )
-//                        cy =py;
-//                 }
             
 
         }
@@ -2066,108 +2074,66 @@ double scaleSelection(graphe *g, MST* mst, JCctree **CompTree,  double  *STAltit
         else lambdaUpper = prevLambda;
         
         ln_pos->bound = 1;
-        
-        //addValueNormal(&positiveInterval, &LastNode, lambdaLower);
-        //addValueNormal(&positiveInterval, &LastNode, lambdaUpper);
-        
+       
         cinterval+=1;
     }
     while(px!=-1 && py!=-1);
 
     switch(op){
-        case 1: //Min: min value on positive observation intervals
+        case 1: //Min-rule
             lambda_star  = positiveIntervalVol->value;
             break;
-        case 2: // Max,  last upper bound on negative intervals
-            
-//            printf("\t Neg \n");
-//            printIntervalDis(x,y,negativeIntervalVol);
-//            printf("\t Pos \n");
-//            printIntervalDis(x,y,positiveIntervalVol);
-//            printf("\t All positive intervals \n" );
-//            printInterval(x,y,positiveInterval );
-//
-//            printf("lambda last note, %.3f \t %.3f  \n ", LastNode->last->value , ln_neg->value);
+        case 2: //Max-rule
             lambda_star = ln_neg->value;
             
             break;
-        case 3:  // On positive intervals, apply length thresholding and  min-rule
-            //T=10;
+        case 3:  // Lower-length: On positive intervals, apply length threshold and min-rule
             T = th;
             filterIntervalLength(&positiveIntervalVol,T,&ln_pos  );
-            lambda_star  = positiveIntervalVol->value;
-            
-           // printf("lambda star note, %.3f   \n ", lambda_star);
+            lambda_star  = positiveIntervalVol->value;                    
             break;
             
         case 4:
-            // On negative intervals, apply length thresholding and  max-rule
-            T=th;            
-           // printf("\t Neg \n");
-            //printIntervalDis(x,y,negativeIntervalVol);
-            
-            negativeIntervalVol->value = -9999999999;  // force negative to have a large interval by the right (to deal with case of only one negative interval)
-            
-            filterIntervalLength(&negativeIntervalVol,T,&ln_neg  );
-            
-            //printf("\t Neg Filtered\n");
-            //printIntervalDis(x,y,negativeIntervalVol);
-            
+            //  Upper-length, apply length threshold and max-rule
+            T=th;                    
+            negativeIntervalVol->value = -9999999999;  // force negative to have a large interval by the right (to deal with case of only one negative interval)            
+            filterIntervalLength(&negativeIntervalVol,T,&ln_neg  );            
             lambda_star  = ln_neg->value;
             break;
-        case 5:
-            // On positive intervals, apply rank and  min-rule
-            ln_pos->value =ln_pos->last->value+1; // limit the upper bound 
-            lambda_star = getRankPositive(positiveIntervalVol, prank);
-            break;
-        case 6:
-            // On negative intervals, apply rank and  max-rule
-            lambda_star = getRankNegativeVolume(negativeIntervalVol, ln_neg,prank);
-            break;
             
-        case 7:
-            
-            // On positive intervals, apply area and  min-rule
+        case 5:            
+            //  Lower-area: On positive intervals, apply area and  min-rule
             T = th;
             filterIntervalArea(&positiveIntervalVol, T, &ln_pos);
             lambda_star =positiveIntervalVol->value;
             
             break;
-        case 8:
-            // On negative intervals, apply area and  max-rule
+        case 6:
+            // Upper-Narea: On negative intervals, apply area and  max-rule
             T = th;
             negativeIntervalVol->value = -99999999;
             filterIntervalArea(&negativeIntervalVol, T, &ln_neg);
             lambda_star = ln_neg->value;
             break;
-        case 9:
-             // On negative intervals, apply area, then ranking and  max-rule
-            T = th;
-            negativeIntervalVol->value = -99999999;
-            filterIntervalArea(&negativeIntervalVol, T, &ln_neg);
-            p_obs = prank;
-            lambda_star = getRankNegativeVolume(negativeIntervalVol, ln_neg,p_obs);
-            break;      
-        case 10 ://On positive intervals, apply volume filter and min-rule    
-            filterIntervalVolume(&positiveIntervalVol, th, &ln_pos);
-            lambda_star = positiveIntervalVol->value;
-            break;
-        case 11:// On negative intervals, apply volume filter and  max-rule
-            negativeIntervalVol->value = -99999999;
-            filterIntervalVolume(&negativeIntervalVol, th, &ln_neg);
-            lambda_star = ln_neg->value;
-            break;
-
-        case 12:// On positive intervals, apply depth filter and  min-rule            
+       
+        case 7:// Lower-depth: On positive intervals, apply depth filter and min-rule
             filterIntervalDepths(&positiveIntervalVol, th, &ln_pos);
             lambda_star = positiveIntervalVol->value;
             break;
-        case 13:// On negative intervals, apply depth filter and max-rule
+        case 8:// Upper-Ndepth: On negative intervals, apply depth filter and max-rule
             negativeIntervalVol->value = -99999999;
             filterIntervalDepths(&negativeIntervalVol, th, &ln_neg);
             lambda_star = ln_neg->value;
             break;
-                
+        case 9:
+            // Lower p-rank: On positive intervals, apply rank filter and  min-rule
+            ln_pos->value =ln_pos->last->value+1; // limit the upper bound 
+            lambda_star = getRankPositive(positiveIntervalVol, prank);
+            break;
+        case 10:
+            //  Upper p-rank: On negative intervals, apply rank filter and  max-rule
+            lambda_star = getRankNegativeVolume(negativeIntervalVol, ln_neg,prank);
+            break;        
             
     }
     
@@ -2557,9 +2523,6 @@ void incrementalSegmentationInterval(graphe *g, int op){
 void intervalSegmentation(graphe *g, int op, int th, double prank){
     
     
-    //  clock_t startAll, endALL; double cpu_time_usedALL;
-    
-    
     int i; double  newf;
     MST *mst; graphe *newG;
     
@@ -2597,48 +2560,25 @@ void intervalSegmentation(graphe *g, int op, int th, double prank){
     
     
     initializeTreeAttributes(newG,&CompTree,STAltitudes,STAltitudesSegmentation, STArea, STMaxWeight );
-    
-    
+        
     /// Set all edges to large values for later SM computation ////
-    
-    
+        
     for(i=0;i < g->nbmaxar; i++){
         setweight(g, i, INFINITO);
-    }
-    //startAll = clock();
+    }    
     
     int numberInterval=0;
     int max_numberInterval=0;
     
     for(i=0;i<mst->size;i++){
-        //NodeList* lambdaStarInterval;
-        //ListInit(&lambdaStarInterval);
         
-        
-        //newf =  minimizationLambdasInterval(newG, mst,  &CompTree ,STAltitudesSegmentation , STArea, STMaxWeight, i ,  op, &numberInterval, &max_numberInterval) - 1 ;
-        //newf =  minimizationLambdasInterval(newG, mst,  &CompTree ,STAltitudesSegmentation , STArea, STMaxWeight, i ,  op, &numberInterval, &max_numberInterval) - 0.0001 ;
-        //newf =  scaleSelection(newG, mst,  &CompTree ,STAltitudesSegmentation , STArea, STMaxWeight, i ,  op, th, prank) - 0.000001 ;
         newf =  scaleSelection(newG, mst,  &CompTree ,STAltitudesSegmentation , STArea, STMaxWeight, i ,  op, th, prank) - 0.000001  ;
-        
-        
-        
         
         setweight(newG,i,newf);
         treeUpdateAttributes(&CompTree, STAltitudes,STAltitudesSegmentation,  STArea, STMaxWeight, newG, i);
     }
     
-    //endALL = clock();
-    //cpu_time_usedALL = ((double) (endALL - startAll)) / CLOCKS_PER_SEC;
-    
-    //printf("\t mean number of intervals %i, max number of intervals  %i\n", numberInterval/mst->size, max_numberInterval );
-    
-    //    if(op>=20){
-    //        //Set values to Max on last interval
-    //        reweightToMax(newG, mst,  &CompTree ,STAltitudesSegmentation);
-    //    }
-    
-    //////////////////////////////////////////////////////////////
-    
+   
     for(i=0;i<mst->size;i++)
         setweight(g, mst->MSTedges[i].idx, getweight(newG, i) + 1);
     

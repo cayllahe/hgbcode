@@ -2,7 +2,6 @@
 # $(BDIR)/segmentImage\
 # $(BDIR)/ppm2graph
 SAL=\
-$(BDIR)/ultramopen\
 $(BDIR)/hgbSegmentationInterval
 
 OBJ = $(ODIR)
@@ -32,15 +31,6 @@ clean:
 # ===============================================================
 # EXECUTABLES
 # ===============================================================
-
-
-$(BDIR)/ultramopen: $(CDIR)/ultramopen.c $(IDIR)/mcweightgraph.h $(IDIR)/lhierarchie.h $(IDIR)/llca.h  $(IDIR)/lcomptree.h  $(IDIR)/mcunionfind.h $(IDIR)/mcsort.h $(ODIR)/mcweightgraph.o $(ODIR)/lhierarchie.o $(ODIR)/llca.o $(ODIR)/lcomptree.o  $(ODIR)/mcunionfind.o $(ODIR)/mcsort.o $(ODIR)/MST.o $(ODIR)/list.o $(ODIR)/graphSegmentation.o 
-	$(CC) $(CCFLAGS) -I$(IDIR) $(CDIR)/ultramopen.c  $(ODIR)/mcweightgraph.o   $(ODIR)/mcunionfind.o  $(ODIR)/lhierarchie.o $(ODIR)/llca.o $(ODIR)/lcomptree.o $(ODIR)/mcsort.o $(ODIR)/MST.o $(ODIR)/list.o $(ODIR)/graphSegmentation.o -o $(BDIR)/ultramopen $(LIBS)
-
-
-
-
-
 
 
 $(BDIR)/hgbSegmentationInterval: $(CDIR)/HgbSegInterval.c $(IDIR)/mcweightgraph.h $(IDIR)/lhierarchie.h $(IDIR)/llca.h  $(IDIR)/lcomptree.h  $(IDIR)/mcunionfind.h $(IDIR)/mcsort.h $(ODIR)/mcweightgraph.o $(ODIR)/lhierarchie.o $(ODIR)/llca.o $(ODIR)/lcomptree.o  $(ODIR)/mcunionfind.o $(ODIR)/mcsort.o  $(ODIR)/MST.o $(ODIR)/list.o $(ODIR)/graphSegmentation.o 
