@@ -1,3 +1,4 @@
+### Authors
 <style>
 .tablelines table{
         width: 120%;
@@ -31,7 +32,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 ### Results
 
 For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg" target="_blank">here
-<img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" width="255" height="166">
+<img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="86">
 </a>.
 
 <table style="width:100%">
