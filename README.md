@@ -54,12 +54,20 @@ For a video showing segmentations obtained from HGB, click <a href="https://gith
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
   <tr>    
-    <th>A segmentation obtained from Min-rule hierarchy</th>
-    <th>A segmentation obtained from Upper P-rank hierarchy</th>
+    <th>A segmentation obtained from Min-rule hierarchy (71 Regions)</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy (71 Regions)</th>
   </tr>
   <tr>    
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166"></td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_71_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_71_regions.png" width="255" height="166"></td>
+  </tr>
+  <tr>    
+    <th>A segmentation obtained from Min-rule hierarchy (57 Regions)</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy (57 Regions)</th>
+  </tr>
+  <tr>    
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_57_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_57_regions.png" width="255" height="166"></td>
   </tr>
 </table>
 Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset. Click

@@ -1,9 +1,3 @@
-Hierarchical image segmentation provides region-oriented scale-spaces:
-sets of image segmentations at different detail levels in which the
-segmentations at finer levels are nested with respect to those at
-coarser levels. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> [Cayllahua-et-al, 2019] </a>.  
-
-### Authors
 <style>
 .tablelines table{
         width: 120%;
@@ -27,31 +21,18 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
     <td>Guillermo Cámara-Chávez[4]</td>
     <td>Arnaldo de Albuquerque Araújo[2]</td>    
   </tr>
-    <tr>
-    <td colspan="3"> 
-        [1] LIGM - ESIEE Paris - Université Paris-Est <br>
-        [2] NPDI - DCC - Universidade Federal de Minas Gerais<br>
-        [3] VIPLAB - Pontifícia Universidade Católica De Minas Gerais <br>
-        [4] DCC - Universidade Federal de Ouro Preto
-    </td>    
-    </tr>
-    <tr> 
-    <td colspan="3">    
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="80" height="70">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="100">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="85" height="70">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="70" height="90">
-        </td>   
-    </tr>
 </table>
 
-
+Hierarchical image segmentation provides region-oriented scale-spaces:
+sets of image segmentations at different detail levels in which the
+segmentations at finer levels are nested with respect to those at
+coarser levels. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> [Cayllahua-et-al, 2019] </a>.  
 
 ### Results
 
-For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg" target="_blank">here</a>.
+For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg" target="_blank">here
+<img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" width="255" height="166">
+</a>.
 
 <table style="width:100%">
   <tr>
@@ -65,15 +46,23 @@ For a video showing segmentations obtained from HGB, click <a href="https://gith
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
   <tr>    
-    <th>A segmentation obtained from Min-rule hierarchy</th>
-    <th>A segmentation obtained from Upper P-rank hierarchy</th>
+    <th>A segmentation obtained from Min-rule hierarchy (71 Regions)</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy (71 Regions)</th>
   </tr>
   <tr>    
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_rule.png" width="255" height="166"></td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/upperPrank.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_71_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_71_regions.png" width="255" height="166"></td>
+  </tr>
+  <tr>    
+    <th>A segmentation obtained from Min-rule hierarchy (57 Regions)</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy (57 Regions)</th>
+  </tr>
+  <tr>    
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_57_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_57_regions.png" width="255" height="166"></td>
   </tr>
 </table>
-Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset. Click
+Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
 [here](https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files) to see more hierarchical image segmentation results 
 ### Get the code
 Click <a href="https://github.com/cayllahe/hgbcode" target="_blank">here</a> to get the code.
@@ -150,5 +139,40 @@ isbn="978-3-030-14085-4"
 
 ### Licence information
 This software is governed by the CeCILL license under French law and abiding by the rules of distribution of free software. You can use, modify and/ or redistribute the software under the terms of the CeCILL license as circulated by CEA, CNRS and INRIA at the following <a href="https://cecill.info/licences/Licence_CeCILL_V2.1-en.html" target="_blank"> URL </a>.
+
+
+### Organizations
+<style>
+.tablelines table{
+        width: 120%;
+        border: none!important;
+        border-collapse: collapse;       
+        border-spacing: 0;        
+        }
+.tablelines td{
+    border: none!important;
+    border-collapse: collapse;
+}
+</style>
+<table class="tablelines">  
+    <tr>
+    <td colspan="3"> 
+        [1] LIGM - ESIEE Paris - Université Paris-Est <br>
+        [2] NPDI - DCC - Universidade Federal de Minas Gerais<br>
+        [3] VIPLAB - Pontifícia Universidade Católica De Minas Gerais <br>
+        [4] DCC - Universidade Federal de Ouro Preto
+    </td>    
+    </tr>
+    <tr> 
+    <td colspan="3">    
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="80" height="70">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="100">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="85" height="70">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="70" height="90">
+        </td>   
+    </tr>
+</table>
 
 
