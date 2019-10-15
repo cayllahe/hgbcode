@@ -1,16 +1,4 @@
 ### Authors
-<style>
-.tablelines table{
-        width: 120%;
-        border: none!important;
-        border-collapse: collapse;       
-        border-spacing: 0;        
-        }
-.tablelines td{
-    border: none!important;
-    border-collapse: collapse;
-}
-</style>
 <table class="tablelines">
   <tr >
     <td width="35%">Edward Cayllahua-Cahuina [1,2]</td>
@@ -32,7 +20,7 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 ### Results
 
 For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg" target="_blank">here.
-<img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="86">
+<br><img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="86">
 </a>
 
 <table style="width:100%">
@@ -143,18 +131,7 @@ This software is governed by the CeCILL license under French law and abiding by 
 
 
 ### Organizations
-<style>
-.tablelines table{
-        width: 120%;
-        border: none!important;
-        border-collapse: collapse;       
-        border-spacing: 0;        
-        }
-.tablelines td{
-    border: none!important;
-    border-collapse: collapse;
-}
-</style>
+
 <table class="tablelines">  
     <tr>
     <td colspan="3"> 
