@@ -42,7 +42,7 @@ For a video showing segmentations obtained from HGB, click <a href="https://gith
     <th>Result of the HGB method with the newly proposed  upper P-rank selection strategy</th>
   </tr>
   <tr>
-    <td rowspan="3"><img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166"></td>
+    <td rowspan="5"><img src="https://cayllahe.github.io/hgbcode/assets/Figures/2010_000666.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/MinSM.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
