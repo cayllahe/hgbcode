@@ -31,9 +31,9 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 
 ### Results
 
-For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg" target="_blank">here
+For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg" target="_blank">here.
 <img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="86">
-</a>.
+</a>
 
 <table style="width:100%">
   <tr>
@@ -47,20 +47,20 @@ For a video showing segmentations obtained from HGB, click <a href="https://gith
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
   <tr>    
-    <th>A segmentation obtained from Min-rule hierarchy (71 Regions)</th>
-    <th>A segmentation obtained from Upper P-rank hierarchy (71 Regions)</th>
+    <th>A segmentation obtained from Min-rule hierarchy (60 Regions)</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy (60 Regions)</th>
   </tr>
   <tr>    
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_71_regions.png" width="255" height="166"></td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_71_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_60_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_60_regions.png" width="255" height="166"></td>
   </tr>
   <tr>    
-    <th>A segmentation obtained from Min-rule hierarchy (57 Regions)</th>
-    <th>A segmentation obtained from Upper P-rank hierarchy (57 Regions)</th>
+    <th>A segmentation obtained from Min-rule hierarchy (48 Regions)</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy (48 Regions)</th>
   </tr>
   <tr>    
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_57_regions.png" width="255" height="166"></td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_57_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_48_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_48_regions.png" width="255" height="166"></td>
   </tr>
 </table>
 Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
