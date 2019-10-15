@@ -39,9 +39,9 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 
 
 ### Results
-#### Video
-(TO BE INCLUDED)
-#### Resulting hierarchy and segmentations
+
+For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/docs/assets/video/video.mpg" target="_blank">here</a>.
+
 <table style="width:100%">
   <tr>
     <th>Image</th>
@@ -135,3 +135,6 @@ isbn="978-3-030-14085-4"
 * Hierarchizing graph-based image segmentation algorithms relying on region dissimilarity <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank"> [Guimaraes-et-al, 2017] </a>.<br>
 
 * Hierarchical segmentations with graphs: quasi-flat zones, minimum spanning trees, and saliency maps <a href="https://hal.archives-ouvertes.fr/hal-01344727v2/document" target="_blank"> [Cousty-et-al, 2018] </a>.
+
+### Licence information
+This software is governed by the CeCILL license under French law and abiding by the rules of distribution of free software. You can use, modify and/ or redistribute the software under the terms of the CeCILL license as circulated by CEA, CNRS and INRIA at the following <a href="https://cecill.info/licences/Licence_CeCILL_V2.1-en.html" target="_blank"> URL </a>.
