@@ -230,7 +230,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  border: 0px solid #373737;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -283,12 +283,12 @@ Full-Width Styles
 }
 
 #header_wraphgb {
-  background: #8db3e2;
-  background: -moz-linear-gradient(top, #8db3e2, #8db3e2);
-  background: -webkit-linear-gradient(top, #8db3e2, #8db3e2);
-  background: -ms-linear-gradient(top, #8db3e2, #8db3e2);
-  background: -o-linear-gradient(top, #8db3e2, #8db3e2);
-  background: linear-gradient(to top, #8db3e2, #8db3e2);
+  background: #4db2ff;
+  background: -moz-linear-gradient(top, #4db2ff, #4db2ff);
+  background: -webkit-linear-gradient(top, #4db2ff, #4db2ff);
+  background: -ms-linear-gradient(top, #4db2ff, #4db2ff);
+  background: -o-linear-gradient(top, #4db2ff, #4db2ff);
+  background: linear-gradient(to top, #4db2ff, #4db2ff);
 }
 
 #header_wraphgb .inner {
@@ -311,6 +311,11 @@ Full-Width Styles
 
 #main_contenthgb {
   padding-top: 40px;
+}
+#authorshgb {
+  background: #8db3e2;
+  color: #fff;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 #footer_wraphgb {
