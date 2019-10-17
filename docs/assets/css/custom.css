@@ -312,8 +312,7 @@ Full-Width Styles
 }
 
 #main_contenthgb {
-  padding-top: 40px;
-  font-size:18px;
+  padding-top: 25px;  
 }
 
 
@@ -323,7 +322,8 @@ Full-Width Styles
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 #main_hgbauthors {
-  padding-top: 40px;
+  padding-top: 10px;
+  font-size:18px;
 }
 
 #footer_wraphgb {
