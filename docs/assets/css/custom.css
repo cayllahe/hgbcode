@@ -303,6 +303,8 @@ Full-Width Styles
   text-shadow: #ffffff 0px 0px 10px;*/
 }
 
+
+
 #main_content_wraphgb {
   background: #f2f2f2;
   border-top: 1px solid #111;
@@ -313,15 +315,20 @@ Full-Width Styles
   padding-top: 40px;
 }
 #authorshgb {
-  background: #80c8ff;
+  background: #4db2ff;
   color: #000000;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+#main_contenthgbauthors {
+  padding-top: 40px;
 }
 
 #footer_wraphgb {
   background: #80c8ff;
   color: #000000;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
 }
 
 
