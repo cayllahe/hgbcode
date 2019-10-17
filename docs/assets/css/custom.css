@@ -313,13 +313,15 @@ Full-Width Styles
   padding-top: 40px;
 }
 #authorshgb {
-  background: #8db3e2;
-  color: #fff;
+  background: #80c8ff;
+  color: #000000;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 #footer_wraphgb {
-  background: #8db3e2;
+  background: #80c8ff;
+  color: #000000;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 
