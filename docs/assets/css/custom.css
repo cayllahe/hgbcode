@@ -313,13 +313,16 @@ Full-Width Styles
 
 #main_contenthgb {
   padding-top: 40px;
+  font-size:18px;
 }
-#authorshgb {
+
+
+#authorwraphgb {
   background: #4db2ff;
   color: #000000;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
-#main_contenthgbauthors {
+#main_hgbauthors {
   padding-top: 40px;
 }
 
