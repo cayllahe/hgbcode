@@ -303,18 +303,18 @@ Full-Width Styles
   text-shadow: #ffffff 0px 0px 10px;*/
 }
 
-#main_content_wrap {
+#main_content_wraphgb {
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
-#main_content {
+#main_contenthgb {
   padding-top: 40px;
 }
 
-#footer_wrap {
-  background: #212121;
+#footer_wraphgb {
+  background: #8db3e2;
 }
 
 
