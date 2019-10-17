@@ -312,9 +312,8 @@ Full-Width Styles
 }
 
 #main_contenthgb {
-  padding-top: 5px;  
+  padding-top: 0px;  
 }
-
 
 #authorwraphgb {
   background: #4db2ff;
@@ -323,7 +322,7 @@ Full-Width Styles
 }
 #main_hgbauthors {
   padding-top: 10px;
-  font-size:18px;
+  font-size:20px;
 }
 
 #footer_wraphgb {
