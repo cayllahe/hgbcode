@@ -252,6 +252,29 @@ form {
   padding: 20px;
 }
 
+
+
+table.hgbtable {
+  border: 0px solid #373737;
+  margin-bottom: 20px;
+  text-align: justify;
+ }
+
+table.hgbtable th {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px;
+  background: #4db2ff;
+  color: #000000;
+ }
+
+table.hgbtable td {
+  padding: 5px;
+  border: 0px solid #373737;
+ }
+
+
+
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
