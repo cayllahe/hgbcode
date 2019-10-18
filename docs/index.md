@@ -33,10 +33,12 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 Hierarchical image segmentation provides a region-oriented scale-space, i.e., a set of image segmentations at different detail levels in which the segmentations at finer levels are nested with respect to those at coarser levels.  <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank"> <i>Guimarâes et al.</i></a>  proposed a hierarchical graph-based image segmentation (HGB) method based on the Felzenszwalb-Huttenlocher dissimilarity. This HGB method computes, for each edge of a graph, the minimum scale in a hierarchy at which two regions linked by this edge should merge according to the dissimilarity. In order to generalize this method, we first propose an algorithm to compute the intervals which contain all the observation scales at which the associated regions should merge. Then, following the current trend in mathematical morphology to study criteria which are not increasing on a hierarchy, we present various strategies to select a significant observation scale in these intervals. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> [Cayllahua-et-al, 2019] </a>.
 </div>
 ### Results
+<div style="text-align:justify">
 Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
 [here](https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files) to see more hierarchical image segmentation results.  For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/
 hgbcode/blob/master/video.mpg" target="_blank">here.</a>
 <!-- <img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="8"> -->
+</div>
 <table style="width:100%" class="hgbtable" id="hgbtable">
   <tr>
     <th>Image</th>
