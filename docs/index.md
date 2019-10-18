@@ -133,7 +133,7 @@ isbn="978-3-030-14085-4"
 }
 ```
 ### Related articles to HGB
-<div style="text-align:justify">
+<div >
   <ul>
     <li>
  Cayllahua-Cahuina, E., Cousty, J., Guimarães, S.J.F.,  Kenmochi, Y., Cámara-Chávez, G. & Araújo, A. de A. <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> A study of observation scales based on Felzenswalb-Huttenlocher dissimilarity measure for hierarchical segmentation</a>. Proceedings of the 21st International Conference on Discrete Geometry for Computer Imagery, DGCI, Paris, France, Lecture Notes in Computer Science, Springer,  DOI 10.1007/978-3-030-14085-4_14, vol. 11414, 2019, pp 167-179.
@@ -187,15 +187,15 @@ This software is governed by the CeCILL license under French law and abiding by 
     </tr>
     <tr> 
     <td colspan="3" >    
-      <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="145" height="45">
+      <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="160" height="45">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="120" height="45">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="100" height="100">
         <br>
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="130" height="50">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/dcc.png" width="120" height="60">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="120"><br>
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="85" height="70">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="70" height="90">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="120" height="100">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="70" height="100">
         </td>   
     </tr>
 </table>
