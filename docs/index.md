@@ -34,9 +34,8 @@ Hierarchical image segmentation provides a region-oriented scale-space, i.e., a 
 </div>
 ### Results
 <div style="text-align:justify">
-Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
-[here](https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files) to see more hierarchical image segmentation results.  For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/
-hgbcode/blob/master/video.mpg" target="_blank">here.</a>
+Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click 
+<a href="https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files" target="_blank">here</a> to see more hierarchical image segmentation results.  For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/video.mpg" target="_blank">here.</a>
 <!-- <img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="8"> -->
 </div>
 <table style="width:100%" class="hgbtable" id="hgbtable">
