@@ -38,7 +38,7 @@ Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
 
 For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/video.mpg" target="_blank">here. <img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="8"></a>
 
-<table style="width:100%">
+<table style="width:100%" class="hgbtable" id="hgbtable">
   <tr>
     <th>Image</th>
     <th>Result of the original <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank">HGB method</a> (saliency map)</th>
