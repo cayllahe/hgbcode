@@ -176,11 +176,12 @@ This software is governed by the CeCILL license under French law and abiding by 
     </td>    
     </tr>
     <tr> 
-    <td colspan="3">    
+    <td colspan="3" >    
+      <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="145" height="45">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="120" height="45">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="100" height="100">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="120" height="45"><br>
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="120" height="50">
+        <br>
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="130" height="50">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/dcc.png" width="120" height="60">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="120"><br>
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="85" height="70">
