@@ -177,7 +177,7 @@ This software is governed by the CeCILL license under French law and abiding by 
     </td>    
     </tr>
     <tr> 
-    <td colspan="3" >    
+    <td colspan="3" style="text-align: center;">    
       <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="160" height="45">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="120" height="45">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="100" height="100">
