@@ -255,7 +255,7 @@ form {
 
 
 table.hgbtable {
-  border: 0px solid #373737;
+  border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: justify;
  }
@@ -269,7 +269,7 @@ table.hgbtable th {
 
 table.hgbtable td {
   padding: 5px;
-  border: 0px solid #373737;
+  border: 1px solid #373737;
  }
 
 
