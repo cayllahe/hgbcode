@@ -163,7 +163,7 @@ This software is governed by the CeCILL license under French law and abiding by 
 <table class="tablelines">  
     <tr>
       <td colspan="3">        
-    Edward Cayllahua-Cahuina [1,2], Jean Cousty [1], Silvio Guimarães [3]
+    Edward Cayllahua-Cahuina [1,2], Jean Cousty [1], Silvio Guimarães [3], 
     Yukiko Kenmochi [1], Guillermo Cámara-Chávez[4], & Arnaldo de Albuquerque Araújo[2]
       </td>
     </tr>
@@ -177,12 +177,12 @@ This software is governed by the CeCILL license under French law and abiding by 
     </tr>
     <tr> 
     <td colspan="3">    
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="80" height="70">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="90" height="45"><br>
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/dcc.png" width="90" height="45">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="110"><br>
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="120" height="45">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="100" height="100">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="120" height="45"><br>
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="120" height="50">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/dcc.png" width="120" height="60">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="120"><br>
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="85" height="70">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="70" height="90">
         </td>   
