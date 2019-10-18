@@ -135,6 +135,8 @@ isbn="978-3-030-14085-4"
 
 * Efficient Algorithms for Hierarchical Graph-Based Segmentation Relying on the Felzenszwalb–Huttenlocher Dissimilarity <a href="https://repositorio.ufop.br/bitstream/123456789/11338/1/ARTIGO_EfficientAlgorithmsHierarchical.pdf" target="_blank"> [Cayllahua-et-al, 2019] </a>.<br>
 
+* Algorithms for hierarchical segmentation based on theFelzenszwalb-Huttenlocher dissimilarity <a href="https://hal-upec-upem.archives-ouvertes.fr/hal-01710920/document" target="_blank"> [Cayllahua-et-al, 2018] </a>.<br>
+
 * Hierarchizing graph-based image segmentation algorithms relying on region dissimilarity <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank"> [Guimaraes-et-al, 2017] </a>.<br>
 
 * Hierarchical segmentations with graphs: quasi-flat zones, minimum spanning trees, and saliency maps <a href="https://hal.archives-ouvertes.fr/hal-01344727v2/document" target="_blank"> [Cousty-et-al, 2018] </a>.
