@@ -32,12 +32,6 @@ coarser levels. This is the code for Hierarchical Graph Based Segmentation from 
 <div style="text-align:justify">
 Hierarchical image segmentation provides a region-oriented scale-space, i.e., a set of image segmentations at different detail levels in which the segmentations at finer levels are nested with respect to those at coarser levels.  <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank"> <i>Guimarâes et al.</i></a>  proposed a hierarchical graph-based image segmentation (HGB) method based on the Felzenszwalb-Huttenlocher dissimilarity. This HGB method computes, for each edge of a graph, the minimum scale in a hierarchy at which two regions linked by this edge should merge according to the dissimilarity. In order to generalize this method, we first propose an algorithm to compute the intervals which contain all the observation scales at which the associated regions should merge. Then, following the current trend in mathematical morphology to study criteria which are not increasing on a hierarchy, we present various strategies to select a significant observation scale in these intervals. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> [Cayllahua-et-al, 2019] </a>.
 </div>
-### Results
-<div style="text-align:justify">
-Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click 
-<a href="https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files" target="_blank">here</a> to see more hierarchical image segmentation results.  For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/video.mpg" target="_blank">here.</a>
-<!-- <img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="8"> -->
-</div>
 <table style="width:100%" class="hgbtable" id="hgbtable">
   <tr>
     <th>Image</th>
@@ -49,14 +43,7 @@ Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/MinSM.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/UpperPrankSM.png" width="255" height="166"></td>
   </tr>
-  <tr>    
-    <th>A segmentation obtained from Min-rule hierarchy (60 Regions)</th>
-    <th>A segmentation obtained from Upper P-rank hierarchy (60 Regions)</th>
-  </tr>
-  <tr>    
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_60_regions.png" width="255" height="166"></td>
-    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_60_regions.png" width="255" height="166"></td>
-  </tr>
+
   <tr>    
     <th>A segmentation obtained from Min-rule hierarchy (48 Regions)</th>
     <th>A segmentation obtained from Upper P-rank hierarchy (48 Regions)</th>
@@ -65,8 +52,22 @@ Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_48_regions.png" width="255" height="166"></td>
     <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_48_regions.png" width="255" height="166"></td>
   </tr>
-</table>
 
+  <tr>    
+    <th>A segmentation obtained from Min-rule hierarchy (100 Regions)</th>
+    <th>A segmentation obtained from Upper P-rank hierarchy (100 Regions)</th>
+  </tr>
+  <tr>    
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/Min_100_regions.png" width="255" height="166"></td>
+    <td><img src="https://cayllahe.github.io/hgbcode/assets/Figures/prank_100_regions.png" width="255" height="166"></td>
+  </tr>
+  
+</table>
+<div style="text-align:justify">
+Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click 
+<a href="https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files" target="_blank">here</a> to see more hierarchical image segmentation results.  For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/video.mpg" target="_blank">here.</a>
+<!-- <img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="8"> -->
+</div>
 ### Get the code
 Click <a href="https://github.com/cayllahe/hgbcode" target="_blank">here</a> to get the code.
 ### Build/Install
@@ -161,19 +162,27 @@ This software is governed by the CeCILL license under French law and abiding by 
 </style>
 <table class="tablelines">  
     <tr>
+      <td colspan="3">        
+    Edward Cayllahua-Cahuina [1,2], Jean Cousty [1], Silvio Guimarães [3]
+    Yukiko Kenmochi [1], Guillermo Cámara-Chávez[4], & Arnaldo de Albuquerque Araújo[2]
+      </td>
+    </tr>
+    <tr>
     <td colspan="3"> 
-        [1] LIGM - ESIEE Paris - Université Paris-Est <br>
-        [2] NPDI - DCC - Universidade Federal de Minas Gerais<br>
-        [3] VIPLAB - Pontifícia Universidade Católica De Minas Gerais <br>
-        [4] DCC - Universidade Federal de Ouro Preto
+        [1] Université Paris-Est, LIGM (UMR 8049), CNRS, ENPC, ESIEE Paris, UPEM <br>
+        [2] Universidade Federal de Minas Gerais, DCC - NPDI<br>
+        [3] Pontifícia Universidade Católica De Minas Gerais - VIPLAB <br>
+        [4] Universidade Federal de Ouro Preto - DCC
     </td>    
     </tr>
     <tr> 
     <td colspan="3">    
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/esiee.png" width="90" height="45">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ligm.png" width="80" height="70">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="100">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/upem.png" width="90" height="45"><br>
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="90" height="40">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/dcc.png" width="90" height="45">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="110"><br>
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="85" height="70">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="70" height="90">
         </td>   
