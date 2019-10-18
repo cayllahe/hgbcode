@@ -41,7 +41,7 @@ For a video showing segmentations obtained from HGB, click <a href="https://gith
 <table style="width:100%" class="hgbtable" id="hgbtable">
   <tr>
     <th>Image</th>
-    <th>Result of the original <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank">HGB method</a> (saliency map)</th>
+    <th>Result of the original <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank" style="color:#1f487a">HGB method</a> (saliency map)</th>
     <th>Result of the HGB method with the newly proposed  upper P-rank selection strategy</th>
   </tr>
   <tr>
