@@ -134,14 +134,16 @@ isbn="978-3-030-14085-4"
 ```
 ### Related articles to HGB
 
-* Efficient Algorithms for Hierarchical Graph-Based Segmentation Relying on the Felzenszwalb–Huttenlocher Dissimilarity <a href="https://repositorio.ufop.br/bitstream/123456789/11338/1/ARTIGO_EfficientAlgorithmsHierarchical.pdf" target="_blank"> [Cayllahua-et-al, 2019] </a>.<br>
+* Cayllahua-Cahuina, E., Cousty, J., Guimarães, S.J.F.,  Kenmochi, Y., Cámara-Chávez, G. & Araújo, A. de A. <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> A study of observation scales based on Felzenswalb-Huttenlocher dissimilarity measure for hierarchical segmentation</a>. Proceedings of the 21st International Conference on Discrete Geometry for Computer Imagery, DGCI, Paris, France, Lecture Notes in Computer Science, Springer,  DOI 10.1007/978-3-030-14085-4_14, vol. 11414, 2019, pp 167-179.
 
-* Algorithms for hierarchical segmentation based on theFelzenszwalb-Huttenlocher dissimilarity <a href="https://hal-upec-upem.archives-ouvertes.fr/hal-01710920/document" target="_blank"> [Cayllahua-et-al, 2018] </a>.<br>
+* Cayllahua-Cahuina, E., Cousty, J., Guimarães, S.J.F.,  Kenmochi, Y., Cámara-Chávez, G. & Araújo, A. de A.  <a href="https://repositorio.ufop.br/bitstream/123456789/11338/1/ARTIGO_EfficientAlgorithmsHierarchical.pdf" target="_blank"> Efficient algorithms for hierarchical graph-based segmentation relying on the Felzenszwalb-Huttenlocher dissimilarity </a>. International Journal of Pattern Recognition and Artificial Intelligence,  DOI 10.1142/S0218001419400081, vol. 33, no. 11, 2019, pp 1-27.
 
-* Hierarchizing graph-based image segmentation algorithms relying on region dissimilarity <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank"> [Guimaraes-et-al, 2017] </a>.<br>
+* Cayllahua-Cahuina, E., Cousty, J., Kenmochi, Y., Araújo, A. de A. & Cámara-Chávez, G. <a href="https://hal-upec-upem.archives-ouvertes.fr/hal-01710920/document" target="_blank"> Algorithms for hierarchical segmentation based on the Felzenszwalb-Huttenlocher dissimilarity </a>. Proceedings of the International Conference on Pattern Recognition and Artificial Intelligence, ICPRAI, Montréal, Canada, ISBN no. 1 895193 06 0, 2018, pp 108-113.
 
-* Hierarchical segmentations with graphs: quasi-flat zones, minimum spanning trees, and saliency maps <a href="https://hal.archives-ouvertes.fr/hal-01344727v2/document" target="_blank"> [Cousty-et-al, 2018] </a>.
+* Guimarães, S., Kenmochi, Y., Cousty, J., Patrocinio N.
+ & Najman L. <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank">Hierarchizing graph-based image segmentation algorithms relying on region dissimilarity </a>. Mathematical Morphology - Theory and Applications, 2(1),  DOI 10.1515/mathm-2017-0004, 2017, pp. 55-75.
 
+* Cousty, J., Najman L., Kenmochi, Y., & Guimarães, S. <a href="https://hal.archives-ouvertes.fr/hal-01344727v2/document" target="_blank"> Hierarchical segmentations with graphs: quasi-flat zones, minimum spanning trees, and saliency maps </a>. Journal of Mathematical Imaging and Vision. DOI 10.1007/s10851-017-0768-7, vol. 60, no. 4, 2018, pp 479-502.
 
 ### Licence information
 This software is governed by the CeCILL license under French law and abiding by the rules of distribution of free software. You can use, modify and/ or redistribute the software under the terms of the CeCILL license as circulated by CEA, CNRS and INRIA at the following <a href="https://cecill.info/licences/Licence_CeCILL_V2.1-en.html" target="_blank"> URL </a>.
