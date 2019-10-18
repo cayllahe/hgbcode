@@ -263,7 +263,7 @@ table.hgbtable {
 table.hgbtable th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
-  background: #4db2ff;
+  background: #8db3e2;
   color: #000000;
  }
 
@@ -306,12 +306,12 @@ Full-Width Styles
 }
 
 #header_wraphgb {
-  background: #4db2ff;
-  background: -moz-linear-gradient(top, #4db2ff, #4db2ff);
-  background: -webkit-linear-gradient(top, #4db2ff, #4db2ff);
-  background: -ms-linear-gradient(top, #4db2ff, #4db2ff);
-  background: -o-linear-gradient(top, #4db2ff, #4db2ff);
-  background: linear-gradient(to top, #4db2ff, #4db2ff);
+  background: #8db3e2;
+  background: -moz-linear-gradient(top, #8db3e2, #8db3e2);
+  background: -webkit-linear-gradient(top, #8db3e2, #8db3e2);
+  background: -ms-linear-gradient(top, #8db3e2, #8db3e2);
+  background: -o-linear-gradient(top, #8db3e2, #8db3e2);
+  background: linear-gradient(to top, #8db3e2, #8db3e2);
 }
 
 #header_wraphgb .inner {
@@ -339,7 +339,7 @@ Full-Width Styles
 }
 
 #authorwraphgb {
-  background: #4db2ff;
+  background: #8db3e2;
   color: #000000;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
@@ -349,7 +349,7 @@ Full-Width Styles
 }
 
 #footer_wraphgb {
-  background: #80c8ff;
+  background: #8db3e2;
   color: #000000;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   border-top: 1px solid #111;
