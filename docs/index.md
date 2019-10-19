@@ -184,9 +184,9 @@ This software is governed by the CeCILL license under French law and abiding by 
         <br>
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufmg.png" width="130" height="50">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/dcc.png" width="120" height="60">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="120"><br>
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="140"><br>
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="120" height="100">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.jpg" width="70" height="120">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.jpg" width="70" height="140">
         </td>   
     </tr>
 </table>
