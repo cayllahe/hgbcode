@@ -132,18 +132,7 @@ This software is governed by the CeCILL license under French law and abiding by 
 
 
 ### Organizations
-<style>
-.tablelines table{
-        width: 120%;
-        border: none!important;
-        border-collapse: collapse;       
-        border-spacing: 0;        
-        }
-.tablelines td{
-    border: none!important;
-    border-collapse: collapse;
-}
-</style>
+
 <table class="tablelines">  
     <tr>
       <td colspan="3">        
