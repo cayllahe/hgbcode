@@ -173,7 +173,7 @@ This software is governed by the CeCILL license under French law and abiding by 
         [1] Université Paris-Est, LIGM (UMR 8049), CNRS, ENPC, ESIEE Paris, UPEM <br>
         [2] Universidade Federal de Minas Gerais, DCC - NPDI<br>
         [3] Pontifícia Universidade Católica De Minas Gerais - VIPLAB <br>
-        [4] Universidade Federal de Ouro Preto - DCC
+        [4] Universidade Federal de Ouro Preto - DECOM
     </td>    
     </tr>
     <tr> 
@@ -186,7 +186,7 @@ This software is governed by the CeCILL license under French law and abiding by 
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/dcc.png" width="120" height="60">
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/npdi.png" width="80" height="120"><br>
         <img src="https://cayllahe.github.io/hgbcode/assets/logos/puc.png" width="120" height="100">
-        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.png" width="70" height="100">
+        <img src="https://cayllahe.github.io/hgbcode/assets/logos/ufop.jpg" width="70" height="120">
         </td>   
     </tr>
 </table>
