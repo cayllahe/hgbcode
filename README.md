@@ -51,13 +51,19 @@ Images used for tests come from PASCAL VOC 2010 and VOC 2012 dataset.  Click
 <a href="https://github.com/cayllahe/hgbcode/tree/master/docs/assets/files/segmentations.pdf" target="_blank">here</a> to see more hierarchical image segmentation results.  For a video showing segmentations obtained from HGB, click <a href="https://github.com/cayllahe/hgbcode/blob/master/video.mpg" target="_blank" style="display:inline;border:none, outline: none;">here<img src="https://cayllahe.github.io/hgbcode/assets/video/play.png" height="9" style="display:inline;vertical-align: middle;border:none, outline: none;">.</a>
 <!-- <img src="https://cayllahe.github.io/hgbcode/assets/video/video.gif" height="8"> -->
 </div>
+
+
 ### Get the code
 Click <a href="https://github.com/cayllahe/hgbcode" target="_blank">here</a> to get the code.
+
+
 ### Build/Install
 This code was compiled and executed in Linux. To compile use:
 ``` 
 ./compileHGB.sh
 ```
+
+
 ### Usage 
 The program takes as input an image file in the format XXXX.ppm and produces as output a saliency map XXXX.pgm, which is the visualization of the hierarchy after performing the hierarchical graph based segmentation from a non increasing edge observation attribute of the input image. 
 
@@ -96,6 +102,7 @@ Where:
 ./hgbSegmentation.sh Images/3063.ppm /tmp/salida.pgm 10 0.001 0.003 
 ```
 
+
 ### Citation 
 Please cite as
 
@@ -115,6 +122,8 @@ pages="167--179",
 isbn="978-3-030-14085-4"
 }
 ```
+
+
 ### Related articles to HGB
 * Cayllahua-Cahuina, E., Cousty, J., Guimarães, S.J.F.,  Kenmochi, Y., Cámara-Chávez, G. & Araújo, A. de A. <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank" style="color:#1f487a;font-weight: bold;"> A study of observation scales based on Felzenswalb-Huttenlocher dissimilarity measure for hierarchical segmentation</a>. Proceedings of the 21st International Conference on Discrete Geometry for Computer Imagery, DGCI, Paris, France, Lecture Notes in Computer Science, Springer,  DOI 10.1007/978-3-030-14085-4_14, vol. 11414, 2019, pp 167-179.
 
