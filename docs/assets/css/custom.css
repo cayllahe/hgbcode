@@ -349,11 +349,9 @@ Full-Width Styles
 }
 
 #footer_wraphgb {
-  background: #3478cb;
+  background: #5d93d5;
   color: #0d0d0d;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;  
 }
 
 
