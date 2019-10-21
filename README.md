@@ -140,7 +140,7 @@ isbn="978-3-030-14085-4"
 This software is governed by the CeCILL license under French law and abiding by the rules of distribution of free software. You can use, modify and/ or redistribute the software under the terms of the CeCILL license as circulated by CEA, CNRS and INRIA at the following <a href="https://cecill.info/licences/Licence_CeCILL_V2.1-en.html" target="_blank"> URL </a>.
 
 
-### Organizations
+### Institutions
 
 <table class="tablelines">  
     <tr>
