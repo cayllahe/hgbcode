@@ -196,6 +196,6 @@ This software is governed by the CeCILL license under French law and abiding by 
 </table>
 
 
-<video width="{#}" height="{#}" controls>  
+<video width="{#}" height="200" controls>  
   <source src="https://cayllahe.github.io/hgbcode/assets/video/video.mp4" type="video/mp4" />    
 </video>
