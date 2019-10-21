@@ -1,19 +1,19 @@
 ### Authors
 <table class="tablelines">
   <tr >
-    <td width="35%">Edward Cayllahua-Cahuina [1,2]</td>
-    <td width="35%">Jean Cousty [1]</td>
-    <td width="35%">Silvio Guimarães [3]</td>    
+    <td width="35%">Edward Cayllahua-Cahuina</td>
+    <td width="35%">Jean Cousty</td>
+    <td width="35%">Silvio Guimarães</td>    
   </tr>
   <tr>
-    <td>Yukiko Kenmochi [1]</td>
-    <td>Guillermo Cámara-Chávez[4]</td>
-    <td>Arnaldo de Albuquerque Araújo[2]</td>    
+    <td>Yukiko Kenmochi</td>
+    <td>Guillermo Cámara-Chávez</td>
+    <td>Arnaldo de Albuquerque Araújo</td>    
   </tr>
 </table>
 
 <div style="text-align:justify">
-Hierarchical image segmentation provides a region-oriented scale-space, i.e., a set of image segmentations at different detail levels in which the segmentations at finer levels are nested with respect to those at coarser levels.  <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank"> <i>Guimarâes et al.</i></a>  proposed a hierarchical graph-based image segmentation (HGB) method based on the Felzenszwalb-Huttenlocher dissimilarity. This HGB method computes, for each edge of a graph, the minimum scale in a hierarchy at which two regions linked by this edge should merge according to the dissimilarity. In order to generalize this method, we first propose an algorithm to compute the intervals which contain all the observation scales at which the associated regions should merge. Then, following the current trend in mathematical morphology to study criteria which are not increasing on a hierarchy, we present various strategies to select a significant observation scale in these intervals. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> [Cayllahua-et-al, 2019] </a>.
+Hierarchical image segmentation provides a region-oriented scale-space, i.e., a set of image segmentations at different detail levels in which the segmentations at finer levels are nested with respect to those at coarser levels.  <a href="https://www.degruyter.com/downloadpdf/j/mathm.2017.2.issue-1/mathm-2017-0004/mathm-2017-0004.pdf" target="_blank"> <i>Guimarâes et al., 2017,</i></a>  proposed a hierarchical graph-based image segmentation (HGB) method based on the Felzenszwalb-Huttenlocher dissimilarity. This HGB method computes, for each edge of a graph, the minimum scale in a hierarchy at which two regions linked by this edge should merge according to the dissimilarity. In order to generalize this method, we first propose an algorithm to compute the intervals which contain all the observation scales at which the associated regions should merge. Then, following the current trend in mathematical morphology to study criteria which are not increasing on a hierarchy, we present various strategies to select a significant observation scale in these intervals. This is the code for Hierarchical Graph Based Segmentation from a non Increasing Edge Observation Attribute <a href="https://link.springer.com/chapter/10.1007/978-3-030-14085-4_14" target="_blank"> [Cayllahua et al., 2019] </a>.
 </div>
 <p> </p>
 <table style="width:100%" class="hgbtable" id="hgbtable">
@@ -147,7 +147,7 @@ This software is governed by the CeCILL license under French law and abiding by 
     <tr>
       <td colspan="3">        
     Edward Cayllahua-Cahuina [1,2], Jean Cousty [1], Silvio Guimarães [3], 
-    Yukiko Kenmochi [1], Guillermo Cámara-Chávez[4], & Arnaldo de Albuquerque Araújo[2]
+    Yukiko Kenmochi [1], Guillermo Cámara-Chávez[4], & Arnaldo de Albuquerque Araújo [1,2]
       </td>
     </tr>
     <tr>
