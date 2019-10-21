@@ -351,7 +351,8 @@ Full-Width Styles
 #footer_wraphgb {
   background: #5d93d5;
   color: #0d0d0d;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;  
+  font-size: 13px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 
